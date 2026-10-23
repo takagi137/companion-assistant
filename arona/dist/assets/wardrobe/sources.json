@@ -1,0 +1,53 @@
+{
+  "generatedOn": "2026-10-16",
+  "tool": "built-in imagegen",
+  "reference": "../arona/arona-00.png",
+  "type": "AI generated fan art, not official alternate costumes",
+  "assets": [
+    {
+      "id": "jk",
+      "file": "assets/wardrobe/jk-v1.png",
+      "prompt": "Use case: identity-preserve. Asset type: single transparent full-body chibi visual-novel dress-up sprite. Reference image is Arona from Blue Archive: preserve her recognizable pale cyan bob haircut with tiny side braid, long bangs covering one eye, white rabbit-ear head ribbon, cyan halo and blue eyes. Redraw in adorable polished 2.5-head chibi anime style, soft clean cel shading, pastel blue palette, neutral front three-quarter standing pose, warm happy smile, head through shoes fully visible with generous empty margin. Outfit: neat JK school uniform with navy blazer, white shirt, blue ribbon tie, knee-length pleated skirt, opaque white socks and loafers. Wholesome everyday school fashion, no sexualization, no adult body proportions, no suggestive posing, no weapons. One character only, no text, no contact sheet, no scenery or floor. True alpha-transparent background."
+    },
+    {
+      "id": "lolita",
+      "file": "assets/wardrobe/lolita-v1.png",
+      "prompt": "Use case: identity-preserve. Create ONE standalone transparent full-body chibi Arona dress-up sprite for a cozy game. Reference image defines exact same recognizable character, face, pale cyan bob hair, fringe over one eye, tiny side braid, white rabbit-ear ribbon and cyan halo, consistent polished cute anime style and colors. Change outfit to a modest pastel-blue and ivory sweet Lolita fashion dress with puff sleeves, a high neckline, layered knee-length lace skirt, bows, opaque stockings and Mary Jane shoes; holding a tiny plush rabbit. Friendly, wholesome everyday fashion, small childlike chibi proportions, no sexualization, no suggestive pose, no weapons. Show entire halo and shoes with margins, centered figure at same scale. True alpha transparent background, no scenery, no text, no grid, no floor. Clean cutout edges without a large glow."
+    },
+    {
+      "id": "sailor",
+      "file": "assets/wardrobe/sailor-v1.png",
+      "prompt": "Use case: identity-preserve. Create ONE standalone transparent full-body chibi Arona dress-up sprite for a cozy game. Reference image defines exact same recognizable character, face, pale cyan bob hair, fringe over one eye, tiny side braid, white rabbit-ear ribbon and cyan halo, consistent polished cute anime style and colors. Change outfit to a crisp blue-and-white sailor school uniform, long sleeves, large white bow, knee-length pleated skirt, white socks and sneakers; cheerful tiny wave. Friendly, wholesome everyday fashion, small childlike chibi proportions, no sexualization, no suggestive pose, no weapons. Show entire halo and shoes with margins, centered figure at same scale. True alpha transparent background, no scenery, no text, no grid, no floor. Clean cutout edges without a large glow."
+    },
+    {
+      "id": "swim",
+      "file": "assets/wardrobe/swim-v1.png",
+      "prompt": "Use case: identity-preserve. Single transparent full-body Arona chibi dress-up sprite. Keep the reference's recognizable face, pale cyan bob haircut, bangs over one eye, tiny braid, white rabbit-ear ribbon, cyan halo, childlike chibi proportions and polished pastel anime style. Change outfit to a plain navy modest one-piece school swimming costume, holding a yellow duck swim ring in front at waist level, a little folded towel over one arm, simple pool sandals; upright cheerful ready-for-swimming pose. Wholesome nonsexual costume illustration. No sensuality, no exaggerated anatomy, no suggestive angle or pose. Entire halo through feet visible, centered, generous margins. True alpha transparent backdrop; NO solid black background, NO painted glow or haze around silhouette. One figure only, no lettering, no scene."
+    },
+    {
+      "id": "sport",
+      "file": "assets/wardrobe/sport-v1.png",
+      "prompt": "Use case: identity-preserve. Create ONE standalone transparent full-body chibi Arona dress-up sprite for a cozy game. Reference image defines exact same recognizable character, face, pale cyan bob hair, fringe over one eye, tiny side braid, white rabbit-ear ribbon and cyan halo, consistent polished cute anime style and colors. Change outfit to ordinary modest school gym clothes: loose white crew-neck T-shirt with blue trim, roomy navy athletic shorts reaching near the knee and sneakers; holding a small basketball at her side. Friendly, wholesome everyday fashion, small childlike chibi proportions, no sexualization, no suggestive pose, no weapons. Show entire halo and shoes with margins, centered figure at same scale. True alpha transparent background, no scenery, no text, no grid, no floor. Clean cutout edges without a large glow."
+    },
+    {
+      "id": "wedding",
+      "file": "assets/wardrobe/wedding-v1.png",
+      "prompt": "Use case: identity-preserve. Single transparent full-body Arona chibi dress-up sprite. Keep the reference's recognizable face, pale cyan bob haircut, bangs over one eye, tiny braid, white rabbit-ear ribbon, cyan halo, childlike chibi proportions and polished pastel anime style. Change outfit to a storybook bridal costume: opaque ivory full-length princess gown, high neckline, puff sleeves, tiny veil beneath the existing rabbit-ear ribbon, blue bows, closed shoes and a small daisy bouquet; cheerful dress-up pose. Wholesome nonsexual costume illustration. No sensuality, no exaggerated anatomy, no suggestive angle or pose. Entire halo through feet visible, centered, generous margins. True alpha transparent backdrop; NO solid black background, NO painted glow or haze around silhouette. One figure only, no lettering, no scene."
+    },
+    {
+      "id": "park",
+      "file": "assets/scenes/park-v1.png",
+      "prompt": "Use case: illustration-story. Asset type: landscape visual novel background for a cute chibi companion app. Draw a spring park, cherry blossom trees arching from the upper corners, a winding pale path receding behind the center, a small blue bench and flower beds at the sides, soft green lawns, warm sunny afternoon. Polished gentle Japanese anime background painting, soft pastel colors, detailed but calm, adorable cozy atmosphere. Wide landscape 3:2 composition, large clear central area for a separate character sprite, details at sides, perspective at eye level; works cropped to central portrait on a phone. Full bleed illustration. NO people, NO characters, NO lettering, no labels, no border, no UI, no watermark."
+    },
+    {
+      "id": "cafe",
+      "file": "assets/scenes/cafe-v1.png",
+      "prompt": "Use case: illustration-story. Asset type: landscape visual novel background for a cute chibi companion app. Draw a tiny cozy pastel-blue patisserie cafe interior, cream walls, arched windows, a blue upholstered booth, cakes in a display case at far left and a round table with pudding and tea at far right, warm afternoon sunlight, open space in the middle. Polished gentle Japanese anime background painting, soft pastel colors, detailed but calm, adorable cozy atmosphere. Wide landscape 3:2 composition, large clear central area for a separate character sprite, details at sides, perspective at eye level; works cropped to central portrait on a phone. Full bleed illustration. NO people, NO characters, NO lettering, no labels, no border, no UI, no watermark."
+    },
+    {
+      "id": "beach",
+      "file": "assets/scenes/beach-v1.png",
+      "prompt": "Use case: illustration-story. Asset type: landscape visual novel background for a cute chibi companion app. Draw a calm sparkling turquoise seaside, ivory sand in the foreground, little seashells at edges, pastel beach parasol at the left, distant blue islands, billowy summer clouds, cheerful sunny atmosphere. Polished gentle Japanese anime background painting, soft pastel colors, detailed but calm, adorable cozy atmosphere. Wide landscape 3:2 composition, large clear central area for a separate character sprite, details at sides, perspective at eye level; works cropped to central portrait on a phone. Full bleed illustration. NO people, NO characters, NO lettering, no labels, no border, no UI, no watermark."
+    }
+  ]
+}

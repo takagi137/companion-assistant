@@ -1,0 +1,17 @@
+*
+!server.mjs
+!secret-input.mjs
+!store.mjs
+!memory.mjs
+!web.mjs
+!music.mjs
+!speech.mjs
+!game.mjs
+!notebook.mjs
+!locations.mjs
+!location-intent.mjs
+!chat-tools.mjs
+!package.json
+!dist/
+!dist/**
+!Dockerfile

@@ -1,0 +1,12 @@
+{
+  "name": "sora-companion",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "test": "node --test scene-bgm.test.mjs idle-hum.test.mjs chat-actions.test.mjs server.test.mjs memory.test.mjs web.test.mjs speech.test.mjs speech-ui.test.mjs speech-stream.test.mjs game.test.mjs room-ui.test.mjs notebook.test.mjs notebook-http.test.mjs notebook-intent.test.mjs notebook-ui.test.mjs composer.test.mjs preset-player.test.mjs room-assets.test.mjs outfit-motion.test.mjs"
+  }
+}

@@ -1,0 +1,74 @@
+/* Wardrobe and destinations complement the existing animated everyday outfit. */
+/* Playback reuses the existing dialogue toolbar instead of shrinking the stage. */
+.room-shell .dialogue-controls .speech-player{flex:1;min-width:0;height:30px;min-height:0;margin:0;padding:0;border:0;border-radius:0;background:none;flex-wrap:nowrap;gap:8px;font-size:10px}
+.dialogue-controls:has(.speech-player:not([hidden]))>#chat-status,.dialogue-controls:has(.speech-player:not([hidden]))>#room-read{display:none}
+.room-shell .dialogue-controls .speech-player [role=status]{min-width:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.room-shell .dialogue-controls .speech-player .copy-button{flex-shrink:0;min-height:26px;height:26px;margin:0;padding:3px 8px;font-size:10px;white-space:nowrap}
+@media(max-width:620px){.room-shell .dialogue-controls .speech-player{height:25px;font-size:9px;gap:5px}.room-shell .dialogue-controls .speech-player .copy-button{height:25px;min-height:25px;font-size:9px;padding:3px 5px}}
+.character-hum-status{position:absolute;left:calc(50% + 65px);top:55px;z-index:5;padding:7px 10px;border-radius:14px 14px 14px 3px;background:#fffef1ed;border:1px solid #e9dfb5;color:#8c8764;font-size:11px;pointer-events:none;max-width:140px}.idle-humming .chibi-character{filter:drop-shadow(0 0 8px #b3e2ef)}
+@media(max-width:620px){.character-hum-status{left:auto;right:14px;top:56px;max-width:100px;font-size:10px}.room-shell.log-open .character-hum-status{left:12px;right:auto;top:45px}}
+.journey-bar{display:flex;align-items:center;gap:8px;margin:0 30px 10px;position:relative;z-index:7;flex-shrink:0;color:#4d7893;font-size:12px}
+.journey-bar>span{margin-right:auto;padding:8px 12px;background:#ffffffc9;border-radius:20px;white-space:nowrap}
+.journey-bar button{min-height:40px;padding:8px 14px;border:1px solid #fff;border-radius:14px;background:#f9fcfff0;color:#4d7893;font-size:12px;cursor:pointer;white-space:nowrap}
+.journey-bar button:hover{background:#e6f5ff}.journey-bar button:disabled{opacity:.5;cursor:default}
+.room-shell .scene-switch{display:block;width:min(350px,calc(100vw - 32px));padding:14px;max-height:70dvh;overflow:auto;right:30px}
+.scene-menu-label{font-size:11px;margin:4px 0 10px;color:#537e9b}.scene-menu-label:not(:first-child){margin-top:18px}
+.place-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.scene-switch .place-grid button{padding:0 0 8px;overflow:hidden;border:2px solid transparent;background:#fff;min-height:44px}
+.place-grid img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;margin-bottom:8px}.place-grid span{font-size:11px}
+.scene-switch .place-grid button[aria-pressed=true]{border-color:#76b6db;background:#edf8ff}
+.room-shell:not([data-location=room]) .room-backdrop img{filter:saturate(.95)}
+.room-shell:not([data-location=room]) .room-tint{background:linear-gradient(#eff9ff77,transparent 35%,#e6f5fc11 65%,#d5eaf477)}
+.wardrobe-dialog{width:min(720px,calc(100vw - 24px));max-height:88dvh;padding:24px;background:linear-gradient(145deg,#f2faff,#fff9fc);overflow:auto}
+.wardrobe-eyebrow{font-size:9px;letter-spacing:2px;color:#88abc2}.wardrobe-dialog h2{font-size:20px;margin:8px 0}.wardrobe-current{font-size:12px;color:#7294ab;margin:6px 0 18px}
+.wardrobe-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.outfit-card{position:relative;border:2px solid #e3edf5;border-radius:16px;background:#ffffffbd;overflow:hidden;padding:8px;cursor:pointer;color:#52788f;min-width:0}
+.outfit-voice-style{display:block;font-size:10px;color:#7b8da9;padding:1px 2px 7px}
+.scene-bgm-controls{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:14px 0;padding:12px;border-radius:12px;background:#f0f8f3;color:#648573;font-size:12px}.scene-bgm-controls small{flex-basis:100%;font-size:11px}.bgm-volume{display:flex;align-items:center;gap:8px;width:100%}.bgm-volume input{min-width:0;flex:1;accent-color:#7bad9a}
+.outfit-card img{display:block;height:185px;width:100%;object-fit:contain;background:radial-gradient(ellipse,#eff9ff,transparent 70%)}
+.outfit-card span{display:block;font-size:11px;padding:10px 2px 4px}.outfit-card[aria-pressed=true]{border-color:#79b9dc;background:#eaf7ff}.outfit-card:hover{border-color:#a5d3eb}.outfit-card:focus-visible{outline:3px solid #559ec7;outline-offset:2px}
+.room-shell[data-character-style=costume] .character-frame{top:auto;bottom:0;left:50%;height:calc(100% - 42px);min-height:0;max-height:540px;aspect-ratio:2/3;transition:none}
+.room-shell[data-character-style=costume] .room-sprite{display:block}.room-shell[data-character-style=costume] .chibi-character{display:none}
+.room-shell[data-character-style=costume][data-outfit-motion=ready] .room-sprite{display:none}
+.room-shell[data-character-style=costume][data-outfit-motion=ready] .chibi-character{display:block}
+.room-shell[data-character-style=costume][data-outfit-motion=ready] .character-frame{aspect-ratio:7/10}
+.room-shell[data-character-style=costume] #character-interaction{top:14%;left:23%;width:54%;height:28%}
+.room-shell[data-character-style=costume] .character-prop{top:54%;left:74%;font-size:30px}
+.room-shell[data-character-style=costume] .character-effect{left:65%;top:18%}
+.room-shell [hidden]{display:none!important}
+@media(min-width:621px){
+ .room-shell:not(.log-open) .action-rail{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;right:6%;top:50%;transform:translateY(-50%);width:230px}
+ .room-shell:not(.log-open) .action-rail button{padding:9px 10px;gap:6px}
+ .room-shell .character-activity{top:8px}
+}
+@media(max-width:620px){
+ .journey-bar{margin:25px 12px 6px;gap:5px;font-size:10px}.journey-bar>span{padding:6px 7px;font-size:10px}.journey-bar button{padding:7px 8px;font-size:11px;min-height:38px;border-radius:10px}
+ .room-shell .scene-switch{right:12px;top:104px}.wardrobe-dialog{padding:18px 14px}.wardrobe-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.outfit-card img{height:160px}.wardrobe-dialog h2{font-size:18px}
+ .room-shell[data-character-style=costume] .character-stage-room{min-height:235px}.room-shell[data-character-style=costume] .character-frame{bottom:52px;height:calc(100% - 90px);max-height:420px}
+ .room-shell.log-open[data-character-style=costume] .character-stage-room{min-height:160px}.room-shell.log-open[data-character-style=costume] .character-frame{left:35%;bottom:0;height:130px}
+}
+@media(max-width:620px) and (max-height:690px){.journey-bar{margin-top:20px;margin-bottom:4px}.room-shell[data-character-style=costume] .character-stage-room{min-height:205px}.room-shell[data-character-style=costume] .character-frame{bottom:46px;height:calc(100% - 78px)}}
+.scene-bgm-credits{flex-basis:100%;font-size:11px;line-height:1.7}.scene-bgm-credits summary{cursor:pointer}.scene-bgm-credits p{margin:5px 0}.scene-bgm-credits a{color:#3d7962;text-underline-offset:2px}
+
+/* Keep preferences in settings and give mobile room controls their own rows. */
+#settings-dialog .preference-section{border:1px solid #dbeaf2;border-radius:16px;padding:16px;margin:0 0 24px;min-width:0;background:#f7fcff}
+#settings-dialog .preference-section legend{font-size:14px;font-weight:600;color:#467b98;padding:0 8px}
+#settings-dialog .preference-section .field-hint{margin:0 0 16px;color:#7895a7}
+#settings-dialog .preference-select{display:flex;align-items:center;justify-content:space-between;gap:14px;font-size:13px;color:#527a93}
+#settings-dialog .preference-select select{min-width:0;max-width:65%;min-height:44px;padding:8px 10px;border:1px solid #c8dfec;border-radius:10px;background:white;color:#426c88;font:inherit;font-size:16px}
+#settings-dialog .preference-select select:focus-visible{outline:2px solid #74a9c8;outline-offset:2px}
+#settings-dialog .preference-section .toggle-row{min-height:44px;margin:16px 0;color:#527a93;gap:12px}
+#settings-dialog .preference-section .toggle-row small{line-height:1.6;color:#7895a7}
+#settings-dialog .preference-section .toggle-track{flex-shrink:0}
+#settings-dialog .preference-section .voice-privacy{color:#7895a7;line-height:1.8;font-size:11px}
+@media(max-width:620px){
+ .room-header{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px 6px;padding-inline:12px}
+ .room-brand{grid-column:1;grid-row:1;gap:6px}.room-brand strong{font-size:14px;letter-spacing:0;white-space:nowrap}.room-brand small{font-size:5px;letter-spacing:1px}
+ .room-utilities{grid-column:2;grid-row:1}
+ .room-shell .affection-button{position:static;grid-column:1 / -1;grid-row:2;justify-self:start;margin:0}
+ .room-shell.log-open .affection-button{display:none}
+ .room-shell .journey-bar{margin-top:0;flex-wrap:wrap;row-gap:6px}
+ .room-shell .journey-bar>span{padding-inline:7px}
+ .room-shell .journey-bar button{padding-inline:7px}
+ #settings-dialog{padding:22px 18px}
+ #settings-dialog .preference-section{padding:12px}
+}
+@media(max-width:370px){.room-brand .brand-halo{display:none}}

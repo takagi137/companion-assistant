@@ -1,0 +1,20 @@
+.character-activity{position:absolute;top:44px;left:50%;transform:translateX(-50%);z-index:4;white-space:nowrap;font-size:11px;color:#4b829e;background:#ffffffd9;border:1px solid #d3eaf4;border-radius:20px;padding:5px 12px;pointer-events:none}
+.character-activity::before{content:'✧';margin-right:5px;display:inline-block}
+.room-shell:is([data-activity=thinking],[data-activity=searching],[data-activity=noting],[data-activity=recognizing]) .character-activity::before{animation:thought-star 1.4s ease-in-out infinite}
+.room-shell:is([data-activity=thinking],[data-activity=searching],[data-activity=noting]) :is(.chibi-character,.room-sprite){animation:character-think 2.4s ease-in-out infinite!important;transform-origin:50% 85%}
+.room-shell[data-activity=listening] :is(.chibi-character,.room-sprite){animation:character-listen 1.8s ease-in-out infinite!important}
+.room-shell[data-activity=speaking] :is(.chibi-character,.room-sprite){animation:character-speak .8s ease-in-out infinite!important}
+.room-shell[data-activity=speaking] .chibi-frame{animation-duration:.65s!important}
+.room-shell[data-activity=noting] .character-activity::before{content:'✎'}
+.room-shell[data-activity=listening] .character-activity::before{content:'♪'}
+.room-shell[data-activity=speaking] .character-activity::before{content:'♫';animation:thought-star .7s ease-in-out infinite}
+.room-action-results{max-height:150px;overflow:auto;margin-top:8px;display:grid;gap:6px}.room-action-results:empty{display:none}
+.action-receipt{padding:9px 12px;border:1px solid #c3e2ed;background:#effaffed;border-radius:12px;color:#416f89;font-size:12px;overflow-wrap:anywhere}.action-receipt strong{font-size:12px}.action-receipt p{margin:5px 0;white-space:pre-wrap}.action-receipt button{font:inherit;color:#367897;background:#fff;border:1px solid #bfdeea;border-radius:8px;padding:5px 9px;margin:5px 5px 0 0;cursor:pointer}.action-receipt small{display:block}.action-receipt.action-failed{border-color:#e7c4b6;background:#fff5ef}.message-actions{display:grid;gap:6px;margin:8px 0}
+.room-shell[data-activity=error] .character-activity{color:#9b5c47}
+@keyframes character-think{0%,100%{transform:rotate(-1.3deg) translateY(0)}50%{transform:rotate(1.3deg) translateY(-3px)}}
+@keyframes character-listen{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(-.3deg) translateY(2px)}}
+@keyframes character-speak{0%,100%{transform:translateY(0) rotate(-.4deg)}50%{transform:translateY(-3px) rotate(.4deg)}}
+@keyframes thought-star{50%{transform:translateY(-3px);opacity:.55}}
+@media(max-width:620px){.character-activity{top:38px;left:50%;font-size:10px;padding:4px 9px}.room-action-results{max-height:105px}.action-receipt{font-size:11px;padding:7px 9px}.room-shell.log-open .character-activity{left:35%;top:4px}}
+@media(prefers-reduced-motion:reduce){.room-shell :is(.chibi-character,.room-sprite,.chibi-frame,.character-activity::before){animation:none!important}}
+.no-motion .room-shell :is(.chibi-character,.room-sprite,.chibi-frame,.character-activity::before){animation:none!important}

@@ -1,0 +1,80 @@
+{
+  "character": "阿罗娜 / Arona / アロナ",
+  "retrievedOn": "2026-10-16",
+  "gallery": "https://bluearchive.wiki/wiki/Arona/gallery",
+  "selection": {
+    "neutral": "arona-00.png",
+    "speaking": "arona-02.png",
+    "happy": "arona-03.png",
+    "surprised": "arona-04.png"
+  },
+  "files": [
+    {
+      "file": "arona-00.png",
+      "source": "https://static.wikitide.net/bluearchivewiki/9/9e/Arona_00.png",
+      "page": "https://bluearchive.wiki/wiki/File:Arona_00.png",
+      "description": "自然微笑的透明全身立绘",
+      "width": 913,
+      "height": 1920,
+      "bytes": 515525,
+      "sha256": "050071c0e4b2e8db459ba79f61e3ac673650a94ca787d4ea459f35c5fddfecc8"
+    },
+    {
+      "file": "arona-02.png",
+      "source": "https://static.wikitide.net/bluearchivewiki/8/8f/Arona_02.png",
+      "page": "https://bluearchive.wiki/wiki/File:Arona_02.png",
+      "description": "张嘴说话或轻微惊讶的透明全身立绘",
+      "width": 913,
+      "height": 1920,
+      "bytes": 515922,
+      "sha256": "954c2edf8970be9f93db8cff3604511f8106db9f64a93feed90985da9759d1ed"
+    },
+    {
+      "file": "arona-03.png",
+      "source": "https://static.wikitide.net/bluearchivewiki/1/17/Arona_03.png",
+      "page": "https://bluearchive.wiki/wiki/File:Arona_03.png",
+      "description": "闭眼开心的透明全身立绘",
+      "width": 913,
+      "height": 1920,
+      "bytes": 511541,
+      "sha256": "699d6a550ce8555b6e06cf28884a2c23b20c01bdba95af1c4f46f9ff62abc78b"
+    },
+    {
+      "file": "arona-04.png",
+      "source": "https://static.wikitide.net/bluearchivewiki/6/69/Arona_04.png",
+      "page": "https://bluearchive.wiki/wiki/File:Arona_04.png",
+      "description": "慌张表情的透明全身立绘，光环形状也有变化",
+      "width": 913,
+      "height": 1920,
+      "bytes": 520733,
+      "sha256": "6722e2d0a3a5881244c532d3bb4604fccfe6ba4fc94ed4e4c81df8adca67f819"
+    },
+    {
+      "file": "arona-default.png",
+      "source": "https://static.wikitide.net/bluearchivewiki/e/e6/Arona.png",
+      "description": "用户最初提供的带场景背景头像；不用于全身立绘",
+      "width": 404,
+      "height": 456,
+      "bytes": 162821,
+      "sha256": "b0c7f332ad7eb6daefbd839662acc4be071c4834aa51adaa1643d4f2f225cbae"
+    }
+  ],
+  "rights": {
+    "assetProvenance": "Arona_00 文件页记录上传者 Electricsheep，2026-09-21 的备注为 Updated win client sprite for Arona。素材为 Blue Archive 游戏角色立绘。",
+    "wikiFooter": "Content is available under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) unless otherwise noted.",
+    "limitation": "文件页未单独提供游戏角色图像的再授权证明；站点页脚不能自动证明游戏图像的商业或再分发权。本次仅用于用户指定角色的本机体验；公开部署前仍需核实适用的官方同人和素材使用条款。"
+  },
+  "spineEvaluation": {
+    "repository": "https://github.com/terralian/arona-cn-os-spine",
+    "defaultBranch": "master",
+    "repositoryLicense": "仓库无 LICENSE 文件，GitHub API 的 license 字段为空；不将公开源码视为已授予复制或分发许可。",
+    "runtime": "JS 示例为 PIXI 6 + pixi-spine 3；React package.json 指定 pixi.js 6.5.1、pixi-spine 3.1.2、@pixi/unsafe-eval 6.5.1。",
+    "bundledRuntimeBytes": 2951473,
+    "skeletonUrl": "https://webcnstatic.yostar.net/ba_cn_web/prod/web/pc/Arona/Arona.json",
+    "atlasUrl": "https://webcnstatic.yostar.net/ba_cn_web/prod/web/pc/Arona/Arona.atlas",
+    "skeletonVersion": "3.8.96",
+    "animations": ["idle"],
+    "textureDimensions": [2048, 2048],
+    "recommendation": "本轮使用透明立绘表情切换和轻量 CSS 动效。当前 Spine 资源只有 idle，不能直接获得摸头、点心或猜拳专用动作；旧运行库、CSP 兼容、WebGL 手机性能、销毁和资源许可需独立验证。未将运行库或 Spine 素材放进正式静态目录，也未执行仓库脚本。"
+  }
+}

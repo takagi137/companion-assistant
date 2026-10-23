@@ -1,0 +1,91 @@
+{
+  "verifiedAt": "2026-10-22T16:00:20.034792+00:00",
+  "catalog": "https://incompetech.com/music/royalty-free/pieces.json",
+  "licenseEvidence": "https://incompetech.com/music/royalty-free/licenses/",
+  "tracks": [
+    {
+      "scene": "day",
+      "name": "Reawakening",
+      "style": "宅邸 · 钢琴与大提琴",
+      "src": "assets/scene-bgm/licensed/day-emilia-v1.mp3",
+      "seconds": 214,
+      "artist": "Kevin MacLeod",
+      "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Reawakening.mp3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isrc": "USUAN1400017",
+      "instruments": "Piano, Cello",
+      "sha256": "b138685f01f2c3857303ef4f8ab1be1de1a23dad17bac1676d3820bcc2cd34d4",
+      "changes": "Unmodified original MP3; runtime volume reduction and loop playback."
+    },
+    {
+      "scene": "rain",
+      "name": "Meditation Impromptu 01",
+      "style": "雨天 · 轻柔钢琴",
+      "src": "assets/scene-bgm/licensed/rain-emilia-v1.mp3",
+      "seconds": 213,
+      "artist": "Kevin MacLeod",
+      "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Meditation%20Impromptu%2001.mp3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isrc": "USUAN1100163",
+      "instruments": "Piano",
+      "sha256": "ac1332a12fe020cbeee206c7f33a82e29109d5ce63636e3302454e3bdfc36187",
+      "changes": "Unmodified original MP3; runtime volume reduction and loop playback."
+    },
+    {
+      "scene": "night",
+      "name": "Meditation Impromptu 02",
+      "style": "夜晚 · 静谧钢琴",
+      "src": "assets/scene-bgm/licensed/night-emilia-v1.mp3",
+      "seconds": 249,
+      "artist": "Kevin MacLeod",
+      "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Meditation%20Impromptu%2002.mp3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isrc": "USUAN1100162",
+      "instruments": "Piano",
+      "sha256": "4e7ead76cfdda0979ff7d771fbbc3dbb312ca80ce25b78f3cdcaef07fcc7c2da",
+      "changes": "Unmodified original MP3; runtime volume reduction and loop playback."
+    },
+    {
+      "scene": "park",
+      "name": "Enchanted Journey",
+      "style": "雪林 · 精灵竖琴",
+      "src": "assets/scene-bgm/licensed/park-emilia-v1.mp3",
+      "seconds": 270,
+      "artist": "Kevin MacLeod",
+      "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Enchanted%20Journey.mp3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isrc": "USUAN1100799",
+      "instruments": "Harp",
+      "sha256": "9ada17171c3f3b4034ca390e3bd01bd9af0bb8625659a8e5f1fbbb8756c7f750",
+      "changes": "Unmodified original MP3; runtime volume reduction and loop playback."
+    },
+    {
+      "scene": "cafe",
+      "name": "Morning",
+      "style": "王都 · 吉他与长笛",
+      "src": "assets/scene-bgm/licensed/cafe-emilia-v1.mp3",
+      "seconds": 153,
+      "artist": "Kevin MacLeod",
+      "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Morning.mp3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isrc": "USUAN2300003",
+      "instruments": "Classical Guitar, Harp, Flutes",
+      "sha256": "25a18be2e8b47ee75c336d9e27ac709bf71f0409806d696ab49ea2bddc113d80",
+      "changes": "Unmodified original MP3; runtime volume reduction and loop playback."
+    },
+    {
+      "scene": "beach",
+      "name": "Canon in D for Two Harps",
+      "style": "水都 · 双竖琴",
+      "src": "assets/scene-bgm/licensed/beach-emilia-v1.mp3",
+      "seconds": 340,
+      "artist": "Kevin MacLeod",
+      "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Canon%20in%20D%20for%20Two%20Harps.mp3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isrc": "USUAN2000015",
+      "instruments": "Concert Harps",
+      "sha256": "3ade637da8136f33500ce21d56b69f08765ed2b9f36150809a7657b6e9a9dff6",
+      "changes": "Unmodified original MP3; runtime volume reduction and loop playback."
+    }
+  ]
+}

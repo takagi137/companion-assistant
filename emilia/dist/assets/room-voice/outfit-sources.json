@@ -1,0 +1,134 @@
+{
+  "model": "qwen3-tts-flash",
+  "voice": "Bella",
+  "generatedAt": "2026-10-16T10:17:39.416Z",
+  "source": "Authored outfit-lines.js. Delivery mood is conveyed through dialogue and punctuation, not unsupported emotion parameters.",
+  "files": [
+    {
+      "outfit": "original",
+      "language": "zh",
+      "style": "软萌",
+      "text": "嘿嘿，还是这套最舒服啦！今天也要一起玩哦。",
+      "file": "assets/room-voice/outfit-original-zh-2cec11afc776f0a2.wav",
+      "seconds": 5.6,
+      "sha256": "341b026c8819cf2845bc2b760e4ac75ed471b3c1d8075b637892de5b0ea9be7b"
+    },
+    {
+      "outfit": "original",
+      "language": "ja",
+      "style": "软萌",
+      "text": "えへへ、やっぱりこの服がいちばん落ち着くね！今日も一緒に遊ぼうね。",
+      "file": "assets/room-voice/outfit-original-ja-7a967171c3b964ff.wav",
+      "seconds": 7.2,
+      "sha256": "19312c665abe692377ddcd2ce7ac6690f16c64a59f470f105e1dfde5e453ec5c"
+    },
+    {
+      "outfit": "jk",
+      "language": "zh",
+      "style": "傲娇",
+      "text": "哼，才不是特意穿给你看的呢！不过……你说好看的话，我就听一下。",
+      "file": "assets/room-voice/outfit-jk-zh-64f737c9c88ade72.wav",
+      "seconds": 7.76,
+      "sha256": "789e3c4e098d0adb4e103e3f4253d3e176d4f7c256a30856e10b0aea88b139e9"
+    },
+    {
+      "outfit": "jk",
+      "language": "ja",
+      "style": "傲娇",
+      "text": "ふん、別にあなたのために着替えたわけじゃないんだから！でも……かわいいって言うなら、聞いてあげる。",
+      "file": "assets/room-voice/outfit-jk-ja-34bd9bd1d2375de0.wav",
+      "seconds": 8.8,
+      "sha256": "dc4161496e4d4f8f571b2b46a618e7b1f4acda6a59c7bab678a45eb737fa865b"
+    },
+    {
+      "outfit": "lolita",
+      "language": "zh",
+      "style": "甜萌",
+      "text": "锵锵！蝴蝶结和小裙子，都准备好啦！今天的小茶会，要坐我旁边哦。",
+      "file": "assets/room-voice/outfit-lolita-zh-67a3971db758ba6f.wav",
+      "seconds": 9.12,
+      "sha256": "508064df63e79535d7da6ee26ab712e2da415facb58663581beb5db16e089447"
+    },
+    {
+      "outfit": "lolita",
+      "language": "ja",
+      "style": "甜萌",
+      "text": "じゃじゃーん！リボンもふわふわのスカートも、準備できたよ！今日のお茶会は、わたしの隣に座ってね。",
+      "file": "assets/room-voice/outfit-lolita-ja-feb5bd27289d3c2a.wav",
+      "seconds": 11.2,
+      "sha256": "2bc7754d15bc55f3fe8c5e0344ee70a74da2b4392a395e40c6c4092eee9377fc"
+    },
+    {
+      "outfit": "sailor",
+      "language": "zh",
+      "style": "温柔",
+      "text": "领结系好啦。今天的风轻轻的，我们一起慢慢走，好不好？",
+      "file": "assets/room-voice/outfit-sailor-zh-7bf578ebc7e10da4.wav",
+      "seconds": 7.68,
+      "sha256": "d16105bc353fe9b54555b54b0463381ce4874cb1aeae05a66bc513433f007cda"
+    },
+    {
+      "outfit": "sailor",
+      "language": "ja",
+      "style": "温柔",
+      "text": "リボン、ちゃんと結べたよ。今日は風がやさしいね。一緒に、ゆっくり歩こう？",
+      "file": "assets/room-voice/outfit-sailor-ja-ce7bd6a1eed6d7b2.wav",
+      "seconds": 7.6,
+      "sha256": "62dab8a3f6cc781ee4b40e78aa336d809862ab8a63f8478868b46fe1ef3b2058"
+    },
+    {
+      "outfit": "swim",
+      "language": "zh",
+      "style": "俏皮",
+      "text": "小鸭子，出发！嘿嘿，谁先找到漂亮的贝壳，谁就是今天的寻宝队长！",
+      "file": "assets/room-voice/outfit-swim-zh-0e75ed4eecc9db5a.wav",
+      "seconds": 7.68,
+      "sha256": "853ad845b14027b3f9bd6d855270473595d94051b48529e76e123e8c135aa6e4"
+    },
+    {
+      "outfit": "swim",
+      "language": "ja",
+      "style": "俏皮",
+      "text": "アヒルさん、出発！えへへ、きれいな貝殻を先に見つけたほうが、今日の宝探し隊長だよ！",
+      "file": "assets/room-voice/outfit-swim-ja-21d80afa0eb29606.wav",
+      "seconds": 9.76,
+      "sha256": "a09d929021452a8faa3b3e52f5786837001bc566e786ce1d8c0d9a96683064a3"
+    },
+    {
+      "outfit": "sport",
+      "language": "zh",
+      "style": "元气",
+      "text": "一、二，准备好啦！今天的元气满格，先陪我做个伸展吧！",
+      "file": "assets/room-voice/outfit-sport-zh-3c76a54c5103911a.wav",
+      "seconds": 9.6,
+      "sha256": "b19c246b002729ffafdb2783d42fae22e1bc928981dec35192a91c587e630d8a"
+    },
+    {
+      "outfit": "sport",
+      "language": "ja",
+      "style": "元气",
+      "text": "いち、にっ、準備できた！今日は元気いっぱいだよ。まずは一緒にストレッチしよう！",
+      "file": "assets/room-voice/outfit-sport-ja-cf3f02e0423820aa.wav",
+      "seconds": 7.84,
+      "sha256": "69a984158af726635b2779d48a66a83a8d6e344b7e27a4e0388c34daef005785"
+    },
+    {
+      "outfit": "wedding",
+      "language": "zh",
+      "style": "娇羞",
+      "text": "唔……裙摆像小云朵一样呢。有、有一点害羞……你觉得，好看吗？",
+      "file": "assets/room-voice/outfit-wedding-zh-8ef4202932522f76.wav",
+      "seconds": 7.84,
+      "sha256": "eaee5866f9cfebf8d784562313ab6bd6111f2e215b0b1bd01eafcb5563951e9b"
+    },
+    {
+      "outfit": "wedding",
+      "language": "ja",
+      "style": "娇羞",
+      "text": "うぅ……スカートが、小さな雲みたい。ちょ、ちょっと照れちゃうな……似合ってる、かな？",
+      "file": "assets/room-voice/outfit-wedding-ja-5da4eb4b1c2b1128.wav",
+      "seconds": 9.04,
+      "sha256": "c667ebe1e1320b4d103fa7552ad54365acf57400e3ea4b024c6fb3ce4448ae61"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "source": "Original note arrangements and additive synthesis in build-scene-bgm.mjs; no vocals, samples, or copied music.",
+  "sampleRate": 24000,
+  "scenes": {
+    "day": {
+      "name": "窗边的午后",
+      "src": "assets/scene-bgm/day-v1.wav",
+      "seconds": 40
+    },
+    "rain": {
+      "name": "雨滴慢慢落",
+      "src": "assets/scene-bgm/rain-v1.wav",
+      "seconds": 40
+    },
+    "night": {
+      "name": "星星也晚安",
+      "src": "assets/scene-bgm/night-v1.wav",
+      "seconds": 40
+    },
+    "park": {
+      "name": "花瓣散步",
+      "src": "assets/scene-bgm/park-v1.wav",
+      "seconds": 40
+    },
+    "cafe": {
+      "name": "一杯温柔",
+      "src": "assets/scene-bgm/cafe-v1.wav",
+      "seconds": 40
+    },
+    "beach": {
+      "name": "海风的明信片",
+      "src": "assets/scene-bgm/beach-v1.wav",
+      "seconds": 40
+    }
+  }
+}

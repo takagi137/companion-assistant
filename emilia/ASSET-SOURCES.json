@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-22",
+  "character": "Emilia / Re:Zero",
+  "referenceSources": [
+    "https://re-zero-anime.jp/tv/character/",
+    "https://re-zero-anime.jp/tv/assets/character/c/2a.webp?v2",
+    "https://re-zero-anime.jp/memorysnow/",
+    "https://re-zero-anime.jp/hyoketsu/"
+  ],
+  "notes": [
+    "Character and scene images are generated fan interpretations, not official extracted game assets or exact anime screenshots.",
+    "Preview SVGs embed unchanged generated PNGs and select one grid cell using viewBox.",
+    "Source code baseline: sora-companion 6c74dd9; no database or credentials copied.",
+    "107 authored clips generated with Alibaba qwen3-tts-flash Nini, a stock soft voice; no actress voice cloning. Audio manifest: dist/assets/room-voice/emilia-sources.json.",
+    "Six scene instrumentals by Kevin MacLeod, CC BY 4.0. Source and hash manifest: dist/assets/scene-bgm/licensed/sources.json."
+  ],
+  "assets": [
+    {
+      "id": "original",
+      "file": "dist/assets/emilia-motion/original-v1.png",
+      "kind": "AI-generated fan interpretation",
+      "prompt": "Create a production sprite atlas for a private cozy companion game. The first image is ONLY a strict layout reference (8 full-body chibi sprites in a 4-column x 2-row grid); REPLACE the blue-haired character entirely with Emilia from Re:Zero. The second image is an official identity reference for silver-white long hair, violet eyes and pointed elf ears. Draw recognizable Emilia with long silver-white hair, a small side braid, white flower hair ornament, purple ribbons, gentle expression. No blue hair, no halo, no rabbit ears. Outfit: her CLASSIC white-and-lilac fantasy dress with purple trim, long detached sleeves, white boots, emerald pendant; not the hooded travel outfit in the identity reference. All eight cells use identical proportions, costume and scale. Cute polished anime chibi illustration with clean outlines, softly shaded silver hair, 3-head-tall proportions. Exact canvas aspect ratio 2:1, ideally 1774x887. Eight equal cells each square, same centered registration, feet and hair fully inside each cell, 9% margin around the body. Row1 columns1-2: standing idle hands neatly clasped, eyes open then closed blink. Row1 columns3-4: happy friendly wave, eyes open then closed smile. Row2 columns1-2: holding pudding and spoon, about to eat then pleased closed eyes. Row2 columns3-4: rock-paper-scissors, small fist then V sign, other hand down. No text, no captions, no cell lines, no background, no floor, no shadows; true transparent alpha outside sprites. Do not preserve any Arona features."
+    },
+    {
+      "id": "jk",
+      "file": "dist/assets/emilia-motion/jk-v1.png",
+      "kind": "AI-generated fan interpretation",
+      "prompt": "Edit the supplied Emilia sprite atlas. Change ONLY the clothing to a modest Japanese school uniform: cream cardigan over white collared shirt, lilac bow tie, charcoal-purple pleated knee-length skirt, opaque dark tights, neat brown loafers. Keep the same recognizable Emilia identity: long silver-white hair, violet eyes, pointed elf ears, side braid, white flower hair clip. Keep the exact 4-column by 2-row layout and all eight matching full-body poses: top row idle open eyes, idle blink, friendly wave open, wave closed smile; bottom row pudding open, pudding closed, rock fist, scissors V sign. Preserve 1774x887 canvas or exact 2:1 ratio, consistent scale and centered registration inside each equal square cell. Ensure every sprite fully fits its cell with 6% clear transparent margin all around; no contact between rows or columns. Polished soft anime chibi style identical to reference. Clean true transparent background with no speckles, no color noise, no shadows, no text or grid lines. Wholesome cute companion-game art."
+    },
+    {
+      "id": "lolita",
+      "file": "dist/assets/emilia-motion/lolita-v1.png",
+      "kind": "AI-generated fan interpretation",
+      "prompt": "Edit the supplied Emilia sprite atlas. Change ONLY the clothing to an elegant classical lolita tea-party dress in ivory and lavender: modest high neckline, puff sleeves, layered knee-length skirt, lace cuffs, small purple ribbons, white stockings and lilac shoes. No bunny ears. Keep the same recognizable Emilia identity: long silver-white hair, violet eyes, pointed elf ears, side braid, white flower hair clip. Keep the exact 4-column by 2-row layout and all eight matching full-body poses: top row idle open eyes, idle blink, friendly wave open, wave closed smile; bottom row pudding open, pudding closed, rock fist, scissors V sign. Preserve 1774x887 canvas or exact 2:1 ratio, consistent scale and centered registration inside each equal square cell. Ensure every sprite fully fits its cell with 6% clear transparent margin all around; no contact between rows or columns. Polished soft anime chibi style identical to reference. Clean true transparent background with no speckles, no color noise, no shadows, no text or grid lines. Wholesome cute companion-game art."
+    },
+    {
+      "id": "sailor",
+      "file": "dist/assets/emilia-motion/sailor-v1.png",
+      "kind": "AI-generated fan interpretation",
+      "prompt": "Edit the supplied Emilia sprite atlas. Change ONLY the clothing to a modest white and pale-lavender sailor uniform with long sleeves, purple neck ribbon, knee-length pleated skirt, white socks and lilac loafers. Keep the same recognizable Emilia identity: long silver-white hair, violet eyes, pointed elf ears, side braid, white flower hair clip. Keep the exact 4-column by 2-row layout and all eight matching full-body poses: top row idle open eyes, idle blink, friendly wave open, wave closed smile; bottom row pudding open, pudding closed, rock fist, scissors V sign. Preserve 1774x887 canvas or exact 2:1 ratio, consistent scale and centered registration inside each equal square cell. Ensure every sprite fully fits its cell with 6% clear transparent margin all around; no contact between rows or columns. Polished soft anime chibi style identical to reference. Clean true transparent background with no speckles, no color noise, no shadows, no text or grid lines. Wholesome cute companion-game art."
+    },
+    {
+      "id": "sport",
+      "file": "dist/assets/emilia-motion/sport-v1.png",
+      "kind": "AI-generated fan interpretation",
+      "prompt": "Edit this Emilia from Re:Zero chibi sprite atlas. Change ONLY clothing to modest lavender zip athletic jacket, white T-shirt, lavender knee-length sports shorts, white trainers. Preserve silver hair, purple eyes, elf ears, white flower, exact character style, 4 columns by 2 rows layout, same eight poses in same order, full bodies with margins in each equal square cell. Transparent background, no text. Row 1 idle eyes open, idle closed, wave open, wave closed. Row 2 pudding open, pudding closed, rock fist, scissors V hand. All poses same clothing, no extra characters."
+    },
+    {
+      "id": "swim",
+      "file": "dist/assets/emilia-motion/swim-v1.png",
+      "kind": "AI-generated fan interpretation",
+      "prompt": "Edit this Emilia from Re:Zero chibi sprite atlas. Change ONLY clothing to modest lavender short-sleeved rash guard with knee-length swim shorts, beach sandals, no bikini, family-friendly. Preserve silver hair, purple eyes, elf ears, white flower, exact character style, 4 columns by 2 rows layout, same eight poses in same order, full bodies with margins in each equal square cell. Transparent background, no text. Row 1 idle eyes open, idle closed, wave open, wave closed. Row 2 pudding open, pudding closed, rock fist, scissors V hand. All poses same clothing, no extra characters."
+    },
+    {
+      "id": "wedding",
+      "file": "dist/assets/emilia-motion/wedding-v1.png",
+      "kind": "AI-generated fan interpretation",
+      "prompt": "Edit this Emilia from Re:Zero chibi sprite atlas. Change ONLY clothing to modest ivory and pale lavender bridal gown with high lace neckline, long sleeves, floral hair accessory and veil. Preserve silver hair, purple eyes, elf ears, white flower, exact character style, 4 columns by 2 rows layout, same eight poses in same order, full bodies with margins in each equal square cell. Transparent background, no text. Row 1 idle eyes open, idle closed, wave open, wave closed. Row 2 pudding open, pudding closed, rock fist, scissors V hand. All poses same clothing, no extra characters."
+    },
+    {
+      "id": "scene-room",
+      "file": "dist/assets/emilia-scenes/room-v1.png",
+      "kind": "AI-generated fan interpretation",
+      "prompt": "Anime visual novel background illustration, landscape 16:9. Fan interpretation of Roswaal mansion from Re:Zero: cozy elegant guest bedroom, cream carved walls, violet curtains, tall Gothic window looking onto the white mansion towers and gardens, warm afternoon light, tea table at left, inviting lavender upholstered sofa, quiet magical home. No characters, no people, no text, no logo. Painterly detailed Japanese anime environment art, soft healing atmosphere, polished coherent perspective. Keep center and lower center relatively uncluttered so a large chibi character and dialogue panel can overlay it. Edge details must remain readable on a phone portrait crop. Full color, no white overlay."
+    },
+    {
+      "id": "scene-park",
+      "file": "dist/assets/emilia-scenes/park-v1.png",
+      "kind": "AI-generated fan interpretation",
+      "prompt": "Anime visual novel background illustration, landscape 16:9. Fan interpretation of Elior Forest from Re:Zero: serene ancient snow-covered forest, tall frost-coated trees, sparkling pale blue ice crystals and scattered purple spirit lights, quiet winding snowy path, gentle soft sunbeams, comforting rather than threatening. No characters, no people, no text, no logo. Painterly detailed Japanese anime environment art, soft healing atmosphere, polished coherent perspective. Keep center and lower center relatively uncluttered so a large chibi character and dialogue panel can overlay it. Edge details must remain readable on a phone portrait crop. Full color, no white overlay."
+    },
+    {
+      "id": "scene-cafe",
+      "file": "dist/assets/emilia-scenes/cafe-v1.png",
+      "kind": "AI-generated fan interpretation",
+      "prompt": "Anime visual novel background illustration, landscape 16:9. Fan interpretation of Lugunica royal capital from Re:Zero: picturesque medieval market street with cream stone and red roof half-timber houses, distant royal castle, a small outdoor tea table and pastries at left foreground, colorful fruit stalls, warm afternoon sunlight. No characters, no people, no text, no logo. Painterly detailed Japanese anime environment art, soft healing atmosphere, polished coherent perspective. Keep center and lower center relatively uncluttered so a large chibi character and dialogue panel can overlay it. Edge details must remain readable on a phone portrait crop. Full color, no white overlay."
+    },
+    {
+      "id": "scene-beach",
+      "file": "dist/assets/emilia-scenes/beach-v1.png",
+      "kind": "AI-generated fan interpretation",
+      "prompt": "Anime visual novel background illustration, landscape 16:9. Fan interpretation of Priestella water gate city from Re:Zero: tranquil canals, white stone arched pedestrian bridges, medieval pastel houses with red tiled roofs, distant tall water gate tower, flowering planters, luminous water reflections at golden hour. No characters, no people, no text, no logo. Painterly detailed Japanese anime environment art, soft healing atmosphere, polished coherent perspective. Keep center and lower center relatively uncluttered so a large chibi character and dialogue panel can overlay it. Edge details must remain readable on a phone portrait crop. Full color, no white overlay."
+    }
+  ],
+  "audioReferences": [
+    "https://help.aliyun.com/zh/model-studio/qwen-tts",
+    "https://help.aliyun.com/zh/model-studio/qwen-tts-voice-list",
+    "https://incompetech.com/music/royalty-free/pieces.json"
+  ]
+}

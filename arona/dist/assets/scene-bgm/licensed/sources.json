@@ -1,0 +1,91 @@
+{
+  "verifiedAt": "2026-10-16T11:04:24.598Z",
+  "catalog": "https://incompetech.com/music/royalty-free/pieces.json",
+  "licenseEvidence": "https://incompetech.com/music/royalty-free/licenses/",
+  "tracks": [
+    {
+      "scene": "rain",
+      "name": "Blue Paint",
+      "style": "雨天 · 独奏钢琴",
+      "src": "assets/scene-bgm/licensed/rain-v2.mp3",
+      "seconds": 131,
+      "artist": "Kevin MacLeod",
+      "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Blue%20Paint.mp3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isrc": "USUAN1100566",
+      "instruments": "Piano",
+      "sha256": "35104fbac8478597a8d5fdd0e08f40d5ce4833c6c33203a67c7a4e46387e7f93",
+      "changes": "Unmodified original MP3; runtime volume reduction and repeat playback only."
+    },
+    {
+      "scene": "day",
+      "name": "Easy Lemon",
+      "style": "房间 · 轻吉他",
+      "src": "assets/scene-bgm/licensed/day-v2.mp3",
+      "seconds": 126,
+      "artist": "Kevin MacLeod",
+      "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Easy%20Lemon.mp3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isrc": "USUAN1200076",
+      "instruments": "Guitar, Bass, Drum Kit, Celesta, Marimba",
+      "sha256": "2486b8ecfe4575f9ab31613a2c03c2ee45e6e5280301d05b4dd7237c9e1c2531",
+      "changes": "Unmodified original MP3; runtime volume reduction and repeat playback only."
+    },
+    {
+      "scene": "park",
+      "name": "Carefree",
+      "style": "公园 · 尤克里里",
+      "src": "assets/scene-bgm/licensed/park-v2.mp3",
+      "seconds": 205,
+      "artist": "Kevin MacLeod",
+      "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Carefree.mp3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isrc": "USUAN1400037",
+      "instruments": "Ukulele, Guitar, Marimba, Glockenspiel, Percussion",
+      "sha256": "8433b770a630d9b1594fd484442c677907ece899a4d149954cd2e74fd733e311",
+      "changes": "Unmodified original MP3; runtime volume reduction and repeat playback only."
+    },
+    {
+      "scene": "cafe",
+      "name": "Local Forecast - Slower",
+      "style": "甜品店 · 轻爵士",
+      "src": "assets/scene-bgm/licensed/cafe-v2.mp3",
+      "seconds": 200,
+      "artist": "Kevin MacLeod",
+      "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Local%20Forecast%20-%20Slower.mp3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isrc": "USUAN1300011",
+      "instruments": "Piano, Bass, Drum Kit, Electric Piano, Flute, Trumpet, Percussion, Guitar",
+      "sha256": "8214ce19de17d6edfe4b83a156feb321d814278deb582fdd5209dcb47f56d440",
+      "changes": "Unmodified original MP3; runtime volume reduction and repeat playback only."
+    },
+    {
+      "scene": "beach",
+      "name": "Dream Culture",
+      "style": "海边 · 水感钢琴",
+      "src": "assets/scene-bgm/licensed/beach-v2.mp3",
+      "seconds": 214,
+      "artist": "Kevin MacLeod",
+      "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Dream%20Culture.mp3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isrc": "USUAN1300046",
+      "instruments": "Piano, Percussion",
+      "sha256": "f12cbb52bd4b92bd6cf8a343645567c119627e9cbf98108a3eb6ac2cc275ee46",
+      "changes": "Unmodified original MP3; runtime volume reduction and repeat playback only."
+    },
+    {
+      "scene": "night",
+      "name": "Clean Soul",
+      "style": "夜晚 · 舒缓电钢琴",
+      "src": "assets/scene-bgm/licensed/night-v2.mp3",
+      "seconds": 307,
+      "artist": "Kevin MacLeod",
+      "source": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Clean%20Soul.mp3",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isrc": "USUAN1300033",
+      "instruments": "Electric Piano, Bass",
+      "sha256": "458868c225cf8f6dbaf17300aa2e0839386991be8581d0218554699297d7581c",
+      "changes": "Unmodified original MP3; runtime volume reduction and repeat playback only."
+    }
+  ]
+}

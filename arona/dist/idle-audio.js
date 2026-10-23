@@ -1,0 +1,21 @@
+// Original Bella vocal syllables; not a cover or official character recording.
+export const IDLE_CLIPS = [
+  {
+    "id": "soft",
+    "text": "ふん、ふふーん。ふんふん、ふーん。",
+    "src": "assets/room-voice/idle-soft-c2e5644fc0a24b8d.wav",
+    "seconds": 3.12
+  },
+  {
+    "id": "bright",
+    "text": "ららら、らーら。ふふーん、ららら。",
+    "src": "assets/room-voice/idle-bright-3590844432f70fe9.wav",
+    "seconds": 4
+  },
+  {
+    "id": "sleepy",
+    "text": "んー、ふんふーん。んん、ふーん。",
+    "src": "assets/room-voice/idle-sleepy-07e375a7f0096964.wav",
+    "seconds": 2.4
+  }
+];

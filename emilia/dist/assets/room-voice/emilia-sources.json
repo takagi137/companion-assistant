@@ -1,0 +1,1077 @@
+{
+  "voice": "Nini",
+  "model": "qwen3-tts-flash",
+  "generatedAt": "2026-10-22T16:36:51.125Z",
+  "files": [
+    {
+      "id": "welcome",
+      "language": "zh",
+      "text": "呀，你来啦！这里是爱蜜莉雅的小窝。要坐这边吗？",
+      "key": "呀，你来啦！这里是爱蜜莉雅的小窝。要坐这边吗？",
+      "group": "room",
+      "src": "assets/room-voice/welcome-zh-c1dae6e11a7ce974.wav",
+      "seconds": 5.44,
+      "sha256": "503c12703c4a66a28785008b3dbf74a5084fd86d7d5a2e8c33c28421c6fc4aef"
+    },
+    {
+      "id": "welcome",
+      "language": "ja",
+      "text": "あ、来てくれたんだ！ここはエミリアのお部屋だよ。隣に座る？",
+      "key": "呀，你来啦！这里是爱蜜莉雅的小窝。要坐这边吗？",
+      "group": "room",
+      "src": "assets/room-voice/welcome-ja-4fec24b464530b27.wav",
+      "seconds": 5.92,
+      "sha256": "33b69a7f7c8460c3ce1d6fb2f3e01e09a682a215f3edba17e8dd1f412ef11069"
+    },
+    {
+      "id": "return",
+      "language": "zh",
+      "text": "呀，你来啦！小窝的位置一直留着呢。",
+      "key": "呀，你来啦！小窝的位置一直留着呢。",
+      "group": "room",
+      "src": "assets/room-voice/return-zh-b0e94b5a20e37397.wav",
+      "seconds": 4.16,
+      "sha256": "7ffdfabb01b3e43fec3c6d334c2beaba2d9f8b7ff4e0918dcd3f0cbbb305c1f2"
+    },
+    {
+      "id": "return",
+      "language": "ja",
+      "text": "あ、おかえり！君の席、ちゃんと空けておいたよ。",
+      "key": "呀，你来啦！小窝的位置一直留着呢。",
+      "group": "room",
+      "src": "assets/room-voice/return-ja-2375ab99e9c3b84b.wav",
+      "seconds": 4.48,
+      "sha256": "210dbcfcdc3dc0dba195750619c1a58013cf4febf82ead5e9878dc838bf5bdc1"
+    },
+    {
+      "id": "return_tea",
+      "language": "zh",
+      "text": "你回来啦！杯子已经摆好了，今天想先做什么？",
+      "key": "你回来啦！杯子已经摆好了，今天想先做什么？",
+      "group": "room",
+      "src": "assets/room-voice/return_tea-zh-419297ae2b520624.wav",
+      "seconds": 5.04,
+      "sha256": "d9af14e98262f5272b7e933817a0c0bf7370992f842a38c5ae2e1bd4c558748c"
+    },
+    {
+      "id": "return_tea",
+      "language": "ja",
+      "text": "おかえり！カップも並べておいたよ。今日は何から始めようか？",
+      "key": "你回来啦！杯子已经摆好了，今天想先做什么？",
+      "group": "room",
+      "src": "assets/room-voice/return_tea-ja-ffb373a2ea86e16c.wav",
+      "seconds": 5.28,
+      "sha256": "17dcac709ae9a5e3e6113d373c8b289275d0aa5c3be96729bd4160dfbde2695b"
+    },
+    {
+      "id": "sit",
+      "language": "zh",
+      "text": "那，这边请！小点心和空位置，都给你留好了。",
+      "key": "那，这边请！小点心和空位置，都给你留好了。",
+      "group": "room",
+      "src": "assets/room-voice/sit-zh-d9e615f36c7081d9.wav",
+      "seconds": 4.72,
+      "sha256": "4004b5ddf13cf7b29e617853890f1c3670cd46c5f7cd31c5be042c343a365a9a"
+    },
+    {
+      "id": "look",
+      "language": "zh",
+      "text": "欢迎参观！桌上的信、窗外的天气，都可以点点看哦。",
+      "key": "欢迎参观！桌上的信、窗外的天气，都可以点点看哦。",
+      "group": "room",
+      "src": "assets/room-voice/look-zh-ca0a6263cbb7f33d.wav",
+      "seconds": 5.44,
+      "sha256": "3e2971e1900d64326dde06bd665de837b8c562911c0a4abd0a834b46a7ee5821"
+    },
+    {
+      "id": "look",
+      "language": "ja",
+      "text": "ようこそ！机のお手紙や窓の外のお天気、気になるものを触ってみてね。",
+      "key": "欢迎参观！桌上的信、窗外的天气，都可以点点看哦。",
+      "group": "room",
+      "src": "assets/room-voice/look-ja-10b0d178ec3a0053.wav",
+      "seconds": 6.32,
+      "sha256": "39fd21648e9b9ea9b6190ba642f2f5f0c91e6075d341e5eb262b96654b367abd"
+    },
+    {
+      "id": "chat",
+      "language": "zh",
+      "text": "今天有没有一件小事，想说给我听？开心的、烦恼的，都可以哦。",
+      "key": "今天有没有一件小事，想说给我听？开心的、烦恼的，都可以哦。",
+      "group": "room",
+      "src": "assets/room-voice/chat-zh-1cc84db900dd5666.wav",
+      "seconds": 6.88,
+      "sha256": "9069e9118b32c0712ae1ad18dd3136edeec9280d1646de9a98f471099362c85f"
+    },
+    {
+      "id": "chat",
+      "language": "ja",
+      "text": "今日、私に話したいことはある？嬉しかったことも、困ったことも、聞かせてね。",
+      "key": "今天有没有一件小事，想说给我听？开心的、烦恼的，都可以哦。",
+      "group": "room",
+      "src": "assets/room-voice/chat-ja-ebfbfb54b0ad5cf1.wav",
+      "seconds": 5.28,
+      "sha256": "a18a6cf3d03ebcb2e3fc738231d9ec063c4e5baff8adc7ae8c9562b34d61e864"
+    },
+    {
+      "id": "chat_happy",
+      "language": "zh",
+      "text": "好呀！是什么让你偷偷开心了一下？我想听。",
+      "key": "好呀！是什么让你偷偷开心了一下？我想听。",
+      "group": "room",
+      "src": "assets/room-voice/chat_happy-zh-811e0898cc02e427.wav",
+      "seconds": 4.88,
+      "sha256": "6c6227e67eeed7e4fa9db30bd71ba7a77cf67a6c6fb32ff54ab1d210240f5868"
+    },
+    {
+      "id": "sit",
+      "language": "ja",
+      "text": "じゃあ、こちらへどうぞ！おやつも席も、君の分を用意してあるよ。",
+      "key": "那，这边请！小点心和空位置，都给你留好了。",
+      "group": "room",
+      "src": "assets/room-voice/sit-ja-bb329dfe6a774d46.wav",
+      "seconds": 5.84,
+      "sha256": "e315fb69c4b5dd30f0f12643177d63b542d5b25cc91aa77a471a49510d042174"
+    },
+    {
+      "id": "chat_tired",
+      "language": "zh",
+      "text": "辛苦啦。先把今天最累的那件事，慢慢说给我听吧。",
+      "key": "辛苦啦。先把今天最累的那件事，慢慢说给我听吧。",
+      "group": "room",
+      "src": "assets/room-voice/chat_tired-zh-bcee768ce885b624.wav",
+      "seconds": 5.2,
+      "sha256": "bf9d457378354646d64311df8b9c6fce8fd8d2576a4be2e2bfbbd5491ee54c7a"
+    },
+    {
+      "id": "chat_tired",
+      "language": "ja",
+      "text": "おつかれさま。今日いちばん疲れたこと、ゆっくり聞かせてね。",
+      "key": "辛苦啦。先把今天最累的那件事，慢慢说给我听吧。",
+      "group": "room",
+      "src": "assets/room-voice/chat_tired-ja-e96b31860cfa4724.wav",
+      "seconds": 4.96,
+      "sha256": "514b278fec9bba1a2fbc80080d7fc78d84ac342a53e9c1f99fe40b8c960dcfbd"
+    },
+    {
+      "id": "chat_any",
+      "language": "zh",
+      "text": "嗯，我在呢。想到什么就说什么，不用整理好才开口。",
+      "key": "嗯，我在呢。想到什么就说什么，不用整理好才开口。",
+      "group": "room",
+      "src": "assets/room-voice/chat_any-zh-4fd527bdc716c88e.wav",
+      "seconds": 5.84,
+      "sha256": "81b85d20e3ae8a278566342d8755dc9c13e52bb8d7c87a268961395193ba913e"
+    },
+    {
+      "id": "chat_any",
+      "language": "ja",
+      "text": "うん、ここにいるよ。思いついたまま話してね。うまくまとめなくても大丈夫。",
+      "key": "嗯，我在呢。想到什么就说什么，不用整理好才开口。",
+      "group": "room",
+      "src": "assets/room-voice/chat_any-ja-d9302af93334cff3.wav",
+      "seconds": 6.64,
+      "sha256": "2cb93546f5398cb5e7fb22ab76c696c15ec6c710f0dacc0d63b13cf04a969e21"
+    },
+    {
+      "id": "pet_1",
+      "language": "zh",
+      "text": "诶？是在摸我的头吗……嘿嘿。",
+      "key": "诶？是在摸我的头吗……嘿嘿。",
+      "group": "room",
+      "src": "assets/room-voice/pet_1-zh-9e2ef761e956e796.wav",
+      "seconds": 3.76,
+      "sha256": "3d6b6ccb49c8bf4119ff2ea0841a46722f21256baed5ff3b1040bda293013593"
+    },
+    {
+      "id": "pet_1",
+      "language": "ja",
+      "text": "えっ？頭をなでてくれてるの……えへへ。",
+      "key": "诶？是在摸我的头吗……嘿嘿。",
+      "group": "room",
+      "src": "assets/room-voice/pet_1-ja-cf2c6783873885fa.wav",
+      "seconds": 4.08,
+      "sha256": "a9055b5d4c675a051c7978db3a2443837289bb1ad2f37bef7544025ad90d74a1"
+    },
+    {
+      "id": "pet_2",
+      "language": "zh",
+      "text": "轻一点啦，蝴蝶结要歪掉了。",
+      "key": "轻一点啦，蝴蝶结要歪掉了。",
+      "group": "room",
+      "src": "assets/room-voice/pet_2-zh-69b5477f6da824e8.wav",
+      "seconds": 3.04,
+      "sha256": "3271c67c63512cf9739549dacacc8278b84b6f6061b9e630d9b4819d48997fb9"
+    },
+    {
+      "id": "pet_2",
+      "language": "ja",
+      "text": "やさしくね。リボンが曲がっちゃうよ。",
+      "key": "轻一点啦，蝴蝶结要歪掉了。",
+      "group": "room",
+      "src": "assets/room-voice/pet_2-ja-b8ec3091210fbfd3.wav",
+      "seconds": 2.8,
+      "sha256": "97124be38fc675277e6628695b53fb6a29240734c3029bafd848c9712b6ce23b"
+    },
+    {
+      "id": "pet_3",
+      "language": "zh",
+      "text": "唔……再一下就好！",
+      "key": "唔……再一下就好！",
+      "group": "room",
+      "src": "assets/room-voice/pet_3-zh-5299c6c455305539.wav",
+      "seconds": 2,
+      "sha256": "bd1c90f85ad864b63fb1aecd518b5be490b72ebcc3259a058c88cf5cae029203"
+    },
+    {
+      "id": "pet_3",
+      "language": "ja",
+      "text": "ん……あと一回だけ！",
+      "key": "唔……再一下就好！",
+      "group": "room",
+      "src": "assets/room-voice/pet_3-ja-ef5f617480336e45.wav",
+      "seconds": 2.24,
+      "sha256": "570be45c96da767108e6065d97b71e56a6380ca2ad2d6109f2649a6df108136e"
+    },
+    {
+      "id": "pet_4",
+      "language": "zh",
+      "text": "头发都变成小鸟窝啦。要帮我理好哦？",
+      "key": "头发都变成小鸟窝啦。要帮我理好哦？",
+      "group": "room",
+      "src": "assets/room-voice/pet_4-zh-47c7d39eb397148a.wav",
+      "seconds": 4.56,
+      "sha256": "1bb925de5e5f71129880a0f8e0c6e33d61346b9ddd39f9dc50d7ec7ce7f36d00"
+    },
+    {
+      "id": "pet_4",
+      "language": "ja",
+      "text": "髪が鳥の巣みたいになっちゃった。ちゃんと直してくれる？",
+      "key": "头发都变成小鸟窝啦。要帮我理好哦？",
+      "group": "room",
+      "src": "assets/room-voice/pet_4-ja-1aefd55726e1cd54.wav",
+      "seconds": 4.56,
+      "sha256": "74508a744c5c9be166a026121cd3d26dcee38b03fc1e12e4f19af00278375b9d"
+    },
+    {
+      "id": "pet_5",
+      "language": "zh",
+      "text": "好啦好啦，我收到啦！一起做点别的吧。",
+      "key": "好啦好啦，我收到啦！一起做点别的吧。",
+      "group": "room",
+      "src": "assets/room-voice/pet_5-zh-5277c2aa58d3d678.wav",
+      "seconds": 3.68,
+      "sha256": "6047ffc97afb7444cf96832172b05c02b6e404e889d3bcd3264c3557e566bffc"
+    },
+    {
+      "id": "pet_5",
+      "language": "ja",
+      "text": "はいはい、気持ちは届いたよ！次は別のことをしよう？",
+      "key": "好啦好啦，我收到啦！一起做点别的吧。",
+      "group": "room",
+      "src": "assets/room-voice/pet_5-ja-fe9f8856ab05e4e8.wav",
+      "seconds": 5.28,
+      "sha256": "7e46df59f26ce7ae01c5a123156b8a904d384408b18bf71e45df53ae6865c825"
+    },
+    {
+      "id": "snack_menu",
+      "language": "zh",
+      "text": "今天的小点心时间！唔……选哪一个呢？",
+      "key": "今天的小点心时间！唔……选哪一个呢？",
+      "group": "room",
+      "src": "assets/room-voice/snack_menu-zh-6ebc1b7781ae6433.wav",
+      "seconds": 3.28,
+      "sha256": "19280b620674d3b7b66a2a2adad197f30f6c68cf26674e309e7f52793cb85b01"
+    },
+    {
+      "id": "snack_menu",
+      "language": "ja",
+      "text": "今日のおやつの時間だよ！うーん……どれにしようかな？",
+      "key": "今天的小点心时间！唔……选哪一个呢？",
+      "group": "room",
+      "src": "assets/room-voice/snack_menu-ja-14143070b65ccfaf.wav",
+      "seconds": 4.96,
+      "sha256": "4e9c5d9011a9e3ab1f9ba78b7ec672f1bf617685dc7b7b6bb1b185fabddbbdb5"
+    },
+    {
+      "id": "pudding_1",
+      "language": "zh",
+      "text": "布丁！……啊，我没有一直盯着它哦。",
+      "key": "布丁！……啊，我没有一直盯着它哦。",
+      "group": "room",
+      "src": "assets/room-voice/pudding_1-zh-37839679824e0edb.wav",
+      "seconds": 3.84,
+      "sha256": "a78fb315fca52a32a916aacf8a42b009313d3012bc8c54d8f6d606de02b01a52"
+    },
+    {
+      "id": "pudding_1",
+      "language": "ja",
+      "text": "プリン！……あ、ずっと見てたわけじゃないからね。",
+      "key": "布丁！……啊，我没有一直盯着它哦。",
+      "group": "room",
+      "src": "assets/room-voice/pudding_1-ja-82fd5337c56359a1.wav",
+      "seconds": 4.16,
+      "sha256": "15740282f6c1732176b7e7d7d7c06556e6bd61097a8c95850dc75f506a9c7497"
+    },
+    {
+      "id": "pudding_2",
+      "language": "zh",
+      "text": "又是软软的布丁！这次我会慢慢吃的。",
+      "key": "又是软软的布丁！这次我会慢慢吃的。",
+      "group": "room",
+      "src": "assets/room-voice/pudding_2-zh-a0fed993fd3feac3.wav",
+      "seconds": 4.72,
+      "sha256": "9e0f64f241ac699db9b46c121f48bb422992f70cf55d5d459bed3676a12ea205"
+    },
+    {
+      "id": "pudding_2",
+      "language": "ja",
+      "text": "またぷるぷるのプリンだ！今度はゆっくり食べるね。",
+      "key": "又是软软的布丁！这次我会慢慢吃的。",
+      "group": "room",
+      "src": "assets/room-voice/pudding_2-ja-351cc329251226b8.wav",
+      "seconds": 4.16,
+      "sha256": "ea0cbd73db09a39bf9a700099c10196010e2d9d636e1ecb01412c7eaddee7c99"
+    },
+    {
+      "id": "cookie_1",
+      "language": "zh",
+      "text": "咔嚓——好香！这块形状最好看的，留给你。",
+      "key": "咔嚓——好香！这块形状最好看的，留给你。",
+      "group": "room",
+      "src": "assets/room-voice/cookie_1-zh-2043f344f3c7840d.wav",
+      "seconds": 5.04,
+      "sha256": "7d42846366c78ce658c88590c10aef766cd257b52770699bdb65a05845c1996a"
+    },
+    {
+      "id": "cookie_1",
+      "language": "ja",
+      "text": "さくっ……いい香り！いちばん可愛い形のは、君にあげる。",
+      "key": "咔嚓——好香！这块形状最好看的，留给你。",
+      "group": "room",
+      "src": "assets/room-voice/cookie_1-ja-0cd8b45c30de69e2.wav",
+      "seconds": 4.56,
+      "sha256": "f0ad59f866ec11c2c542d8f9b8b488d94a4eb69294da02041a943903d7f163c3"
+    },
+    {
+      "id": "cookie_2",
+      "language": "zh",
+      "text": "饼干小队，集合！我们一人一块。",
+      "key": "饼干小队，集合！我们一人一块。",
+      "group": "room",
+      "src": "assets/room-voice/cookie_2-zh-099c44a41ea4659f.wav",
+      "seconds": 3.6,
+      "sha256": "761244583097d77ebeaa41f4fbd7ee0a14a9b4d43fd24d5e70b06327ebff0c77"
+    },
+    {
+      "id": "cookie_2",
+      "language": "ja",
+      "text": "クッキー隊、集合！ひとり一枚ずつね。",
+      "key": "饼干小队，集合！我们一人一块。",
+      "group": "room",
+      "src": "assets/room-voice/cookie_2-ja-b14a95592d33cd75.wav",
+      "seconds": 3.36,
+      "sha256": "8df6ca3f43102c2689b8d42791b8e4a2d26bf4877e165a227efbe07f06fe48dd"
+    },
+    {
+      "id": "tea_1",
+      "language": "zh",
+      "text": "呼……捧在手里暖暖的。你也有一杯！",
+      "key": "呼……捧在手里暖暖的。你也有一杯！",
+      "group": "room",
+      "src": "assets/room-voice/tea_1-zh-47343b97943de5f5.wav",
+      "seconds": 5.6,
+      "sha256": "e113789ac0376453a3434c0d28eb2950d04e1ca8c879a53690fbddbb4eeeab89"
+    },
+    {
+      "id": "chat_happy",
+      "language": "ja",
+      "text": "いいね！どんなことで、ちょっぴり嬉しくなったの？聞きたいな。",
+      "key": "好呀！是什么让你偷偷开心了一下？我想听。",
+      "group": "room",
+      "src": "assets/room-voice/chat_happy-ja-e2174c46eb677e8c.wav",
+      "seconds": 5.04,
+      "sha256": "c7eec3d40b46a9141be67171d9bf7d0a10ee35f9bf3df09a80849811cf756249"
+    },
+    {
+      "id": "tea_2",
+      "language": "zh",
+      "text": "今天也是热乎乎的一杯。先吹一吹哦。",
+      "key": "今天也是热乎乎的一杯。先吹一吹哦。",
+      "group": "room",
+      "src": "assets/room-voice/tea_2-zh-6e0b5503d8af7106.wav",
+      "seconds": 3.36,
+      "sha256": "ec3e4a57edcb348b936999e15b6b1111cb248248994464621d412d0d57518a60"
+    },
+    {
+      "id": "tea_2",
+      "language": "ja",
+      "text": "今日もあったかい一杯だよ。ふうふうしてから飲んでね。",
+      "key": "今天也是热乎乎的一杯。先吹一吹哦。",
+      "group": "room",
+      "src": "assets/room-voice/tea_2-ja-38f6fed46ccc791f.wav",
+      "seconds": 3.84,
+      "sha256": "a7698976f9cc43729a119444385d72e73785460b3da0fd159ab1a6bd5fecd325"
+    },
+    {
+      "id": "rps_menu",
+      "language": "zh",
+      "text": "石头、剪刀、布！我已经想好要出什么啦。",
+      "key": "石头、剪刀、布！我已经想好要出什么啦。",
+      "group": "room",
+      "src": "assets/room-voice/rps_menu-zh-72f60960c588ab6e.wav",
+      "seconds": 4.48,
+      "sha256": "828a9cb1e282d5834c904d157580fe419b5f9fa0c3ea4afbe6cbc06f1aa5c22d"
+    },
+    {
+      "id": "rps_menu",
+      "language": "ja",
+      "text": "じゃんけん、ぽん！私はもう、何を出すか決めたよ。",
+      "key": "石头、剪刀、布！我已经想好要出什么啦。",
+      "group": "room",
+      "src": "assets/room-voice/rps_menu-ja-c5afa2f6daafd0d2.wav",
+      "seconds": 4.96,
+      "sha256": "df5ce3097e944af8990077dc736c6d05eaf31a060dff1b8e59560f07a7553dd2"
+    },
+    {
+      "id": "tea_1",
+      "language": "ja",
+      "text": "ふう……手のひらまでぽかぽか。君の分もあるよ！",
+      "key": "呼……捧在手里暖暖的。你也有一杯！",
+      "group": "room",
+      "src": "assets/room-voice/tea_1-ja-de0f93c596585834.wav",
+      "seconds": 4.32,
+      "sha256": "3a95c3733b1a9254f821f8a3d443871947d39efbe43346a80af99fa3611effae"
+    },
+    {
+      "id": "rps_win",
+      "language": "ja",
+      "text": "わあ、君の勝ち！……もう一回する？今度は準備ばっちりだよ！",
+      "key": "哇，你赢啦！……再来一局？这次我准备好了！",
+      "group": "room",
+      "src": "assets/room-voice/rps_win-ja-2ad1656c71a4fabf.wav",
+      "seconds": 5.76,
+      "sha256": "f7d33047a365ce13a1c441de64fec5dd924e4d06958dec456baf18fa19729ec2"
+    },
+    {
+      "id": "rps_win",
+      "language": "zh",
+      "text": "哇，你赢啦！……再来一局？这次我准备好了！",
+      "key": "哇，你赢啦！……再来一局？这次我准备好了！",
+      "group": "room",
+      "src": "assets/room-voice/rps_win-zh-78a62d4c1b80f767.wav",
+      "seconds": 5.44,
+      "sha256": "fafab4f30608ba7f8852899cf80dfd67a96c99fdfa0113f0325cb81eaac59901"
+    },
+    {
+      "id": "rps_lose",
+      "language": "ja",
+      "text": "勝った！えへへ、今日のエミリアは勘が冴えてるね。",
+      "key": "赢啦！嘿嘿，爱蜜莉雅今天的直觉很准呢。",
+      "group": "room",
+      "src": "assets/room-voice/rps_lose-ja-03468686077fab7f.wav",
+      "seconds": 3.6,
+      "sha256": "19d1ddbbe051ff642fb0ac855f4853f4099cb637004c51cc7887ebd2ce9020d5"
+    },
+    {
+      "id": "rps_draw",
+      "language": "zh",
+      "text": "一样的！我们是不是想到一起去了？",
+      "key": "一样的！我们是不是想到一起去了？",
+      "group": "room",
+      "src": "assets/room-voice/rps_draw-zh-24c132d8700c5a68.wav",
+      "seconds": 3.44,
+      "sha256": "835daf6a7b9cf6fccb6795c9bc4818a29fe3537c81b1b40c1a24621e37dd99f5"
+    },
+    {
+      "id": "rps_draw",
+      "language": "ja",
+      "text": "おんなじだ！ふたりとも、同じことを考えてたのかな？",
+      "key": "一样的！我们是不是想到一起去了？",
+      "group": "room",
+      "src": "assets/room-voice/rps_draw-ja-81ff5d193ecdcdca.wav",
+      "seconds": 4.4,
+      "sha256": "e1e543140cff760828234a017297d3c831c1302cc89732ac20b7d4bd857635dc"
+    },
+    {
+      "id": "day",
+      "language": "zh",
+      "text": "阳光跑进来啦！坐在这里，刚刚好。",
+      "key": "阳光跑进来啦！坐在这里，刚刚好。",
+      "group": "room",
+      "src": "assets/room-voice/day-zh-abbbf1bd327061cf.wav",
+      "seconds": 3.2,
+      "sha256": "bc3802995e61373b22f9403b3f58967a079be59407da4b50a63697872be38e29"
+    },
+    {
+      "id": "day",
+      "language": "ja",
+      "text": "お日さまの光が入ってきたよ！ここに座ると、ちょうどいいね。",
+      "key": "阳光跑进来啦！坐在这里，刚刚好。",
+      "group": "room",
+      "src": "assets/room-voice/day-ja-c84688a859ec5676.wav",
+      "seconds": 5.12,
+      "sha256": "ff983d1f62c87fb9abef0faa6ee1ad8d3417e9323f15167b738fa9aea5a85ca9"
+    },
+    {
+      "id": "rain_scene",
+      "language": "zh",
+      "text": "滴答、滴答……要一起听窗外的小雨吗？",
+      "key": "滴答、滴答……要一起听窗外的小雨吗？",
+      "group": "room",
+      "src": "assets/room-voice/rain_scene-zh-73d4ad5bc0191748.wav",
+      "seconds": 4.56,
+      "sha256": "3e33a4508d7f58707425727b5f1d2484c560dbd1a2cd9cd1cdf21d9e624c5f45"
+    },
+    {
+      "id": "rps_lose",
+      "language": "zh",
+      "text": "赢啦！嘿嘿，爱蜜莉雅今天的直觉很准呢。",
+      "key": "赢啦！嘿嘿，爱蜜莉雅今天的直觉很准呢。",
+      "group": "room",
+      "src": "assets/room-voice/rps_lose-zh-6cac2d20d29d5b6f.wav",
+      "seconds": 5.04,
+      "sha256": "126941e8b84854578ccf1d4e8cb182e260d53b9cb45e1c4107aee59d752e3920"
+    },
+    {
+      "id": "night",
+      "language": "zh",
+      "text": "看，星星亮起来了！给今晚留一点点光。",
+      "key": "看，星星亮起来了！给今晚留一点点光。",
+      "group": "room",
+      "src": "assets/room-voice/night-zh-7e21769a8802f10f.wav",
+      "seconds": 4.64,
+      "sha256": "84cef928195d21914085a0c0dc6ad0c4b3d3ba518d8a6e2d04f7f827598dff15"
+    },
+    {
+      "id": "night",
+      "language": "ja",
+      "text": "見て、星が光りはじめた！今夜のために、小さな明かりを残そうね。",
+      "key": "看，星星亮起来了！给今晚留一点点光。",
+      "group": "room",
+      "src": "assets/room-voice/night-ja-6cace4915c9c40be.wav",
+      "seconds": 6,
+      "sha256": "33e810ed57fa3567c6a4d3b66cc63fd3da06ed284566913deab40fbd820dc525"
+    },
+    {
+      "id": "letter",
+      "language": "zh",
+      "text": "拆开啦！是小窝准备的小卡片。让我也看看，好不好？",
+      "key": "拆开啦！是小窝准备的小卡片。让我也看看，好不好？",
+      "group": "room",
+      "src": "assets/room-voice/letter-zh-ccf0792359a312a0.wav",
+      "seconds": 5.12,
+      "sha256": "9be877ece5a56473ad7b740d19a01bfd88465d5967d777a8a3ea4a898630aedb"
+    },
+    {
+      "id": "letter",
+      "language": "ja",
+      "text": "開いたよ！お部屋からの小さなカードだ。私にも見せてくれる？",
+      "key": "拆开啦！是小窝准备的小卡片。让我也看看，好不好？",
+      "group": "room",
+      "src": "assets/room-voice/letter-ja-12484e7619e19a88.wav",
+      "seconds": 6.96,
+      "sha256": "7a6c99fab40707f568dbef45ff3e0bf467dbea3e8e21d5a54f3166e0eb27e959"
+    },
+    {
+      "id": "rain_menu",
+      "language": "zh",
+      "text": "窗外下起小雨啦。你看，玻璃上有一串小水珠。",
+      "key": "窗外下起小雨啦。你看，玻璃上有一串小水珠。",
+      "group": "room",
+      "src": "assets/room-voice/rain_menu-zh-3861f516b690aff0.wav",
+      "seconds": 5.52,
+      "sha256": "ac55cf24f98afa33ca397b23510fe78e8b9bb719d8d056079bd43ddb932f58ec"
+    },
+    {
+      "id": "rain_menu",
+      "language": "ja",
+      "text": "窓の外、雨が降ってきたね。ほら、ガラスに小さなしずくが並んでる。",
+      "key": "窗外下起小雨啦。你看，玻璃上有一串小水珠。",
+      "group": "room",
+      "src": "assets/room-voice/rain_menu-ja-186a165e995972b2.wav",
+      "seconds": 6.56,
+      "sha256": "7793a1a3217000b36481ee462f56eebf6af645446953c5386648793de21eb9c1"
+    },
+    {
+      "id": "rain_tea",
+      "language": "zh",
+      "text": "杯子暖暖的，雨声轻轻的……这一小会儿，我们慢慢过。",
+      "key": "杯子暖暖的，雨声轻轻的……这一小会儿，我们慢慢过。",
+      "group": "room",
+      "src": "assets/room-voice/rain_tea-zh-9817db7b09c91125.wav",
+      "seconds": 6.48,
+      "sha256": "8f05fcc1dfd760fcf668e57eb20467f5051efd38ed7a20f17fa2d2f2921c3f4f"
+    },
+    {
+      "id": "rain_tea",
+      "language": "ja",
+      "text": "カップはぽかぽか、雨の音は静か……このひととき、ゆっくり過ごそうね。",
+      "key": "杯子暖暖的，雨声轻轻的……这一小会儿，我们慢慢过。",
+      "group": "room",
+      "src": "assets/room-voice/rain_tea-ja-6343eb01f1246d6f.wav",
+      "seconds": 5.2,
+      "sha256": "b318548209a83281075ee619a6cfa055d877617e0a50e82ea47cac8549f53f47"
+    },
+    {
+      "id": "rain_watch",
+      "language": "zh",
+      "text": "那朵云像不像一只小鲸鱼？……看，它游过去啦。",
+      "key": "那朵云像不像一只小鲸鱼？……看，它游过去啦。",
+      "group": "room",
+      "src": "assets/room-voice/rain_watch-zh-f8daf1eea8788a1c.wav",
+      "seconds": 4.64,
+      "sha256": "697b42407efd918ca522a3a6b45dd89167c73e83643b9be749027f14f4dba8fc"
+    },
+    {
+      "id": "rain_watch",
+      "language": "ja",
+      "text": "あの雲、小さなクジラみたいじゃない？……ほら、泳いでいったよ。",
+      "key": "那朵云像不像一只小鲸鱼？……看，它游过去啦。",
+      "group": "room",
+      "src": "assets/room-voice/rain_watch-ja-949597e60a0dade8.wav",
+      "seconds": 4.88,
+      "sha256": "d86e8d603501ccf137076a1a8ed3c56ac15112fff6607d91d117feffad1a5868"
+    },
+    {
+      "id": "daily_menu",
+      "language": "zh",
+      "text": "今天也可以慢悠悠地过。想一起做什么？",
+      "key": "今天也可以慢悠悠地过。想一起做什么？",
+      "group": "room",
+      "src": "assets/room-voice/daily_menu-zh-6b55bf3d2b5c21ec.wav",
+      "seconds": 3.92,
+      "sha256": "1581862a7729fb5cba9e5126690f029354d354a0caa6ec0e61e88b81fe226fd2"
+    },
+    {
+      "id": "daily_menu",
+      "language": "ja",
+      "text": "今日も、のんびり過ごしていいんだよ。一緒に何をしようか？",
+      "key": "今天也可以慢悠悠地过。想一起做什么？",
+      "group": "room",
+      "src": "assets/room-voice/daily_menu-ja-4a6335b461481e65.wav",
+      "seconds": 4.16,
+      "sha256": "5f10a3bd93f1d27c3975e7b419400c81aadfa3051b2a2fa9e35fdb18e7d07ffa"
+    },
+    {
+      "id": "rain_scene",
+      "language": "ja",
+      "text": "ぽつぽつ……窓の外の雨を、一緒に眺めてみない？",
+      "key": "滴答、滴答……要一起听窗外的小雨吗？",
+      "group": "room",
+      "src": "assets/room-voice/rain_scene-ja-d55c13571991729d.wav",
+      "seconds": 5.12,
+      "sha256": "7523cec115c6c13b164a3d04dbd89b06890083ad516b7ab2a2eed753819ec9ac"
+    },
+    {
+      "id": "rest",
+      "language": "ja",
+      "text": "クッション、半分こしよう。ちょっとだけ、ひと休みしよっか。",
+      "key": "靠垫分你一半。我们先歇一小会儿吧。",
+      "group": "room",
+      "src": "assets/room-voice/rest-ja-1bae64b10a81a684.wav",
+      "seconds": 4.72,
+      "sha256": "171c820b61adc2e5730cef9b67452cab81f80f2722cdae0e7b9a65d16f65e969"
+    },
+    {
+      "id": "wash",
+      "language": "zh",
+      "text": "我去洗漱一下！小鸭子替我看一会儿房间～",
+      "key": "我去洗漱一下！小鸭子替我看一会儿房间～",
+      "group": "room",
+      "src": "assets/room-voice/wash-zh-2c2d5973457319d0.wav",
+      "seconds": 4.96,
+      "sha256": "ad70ba9e7aa57669e614bae7040a9ee6f4493ebf17b6d166df26cbc408a9836e"
+    },
+    {
+      "id": "wash",
+      "language": "ja",
+      "text": "ちょっと顔を洗ってくるね！アヒルさん、お留守番お願い！",
+      "key": "我去洗漱一下！小鸭子替我看一会儿房间～",
+      "group": "room",
+      "src": "assets/room-voice/wash-ja-c9b01ea751374da4.wav",
+      "seconds": 4.64,
+      "sha256": "a765c7cb40d3f69c5212ce32b1cbd86842f786d53bcfa40c78b82706c6317b50"
+    },
+    {
+      "id": "wash_return",
+      "language": "zh",
+      "text": "回来啦！清清爽爽的，接下来做什么呢？",
+      "key": "回来啦！清清爽爽的，接下来做什么呢？",
+      "group": "room",
+      "src": "assets/room-voice/wash_return-zh-18e3a3c29057da34.wav",
+      "seconds": 3.6,
+      "sha256": "01b8c5796bf631b882abcabd473b55b6908251c9409edb8e7bedde1330116731"
+    },
+    {
+      "id": "wash_return",
+      "language": "ja",
+      "text": "ただいま！さっぱりしたよ。次は何をしようかな？",
+      "key": "回来啦！清清爽爽的，接下来做什么呢？",
+      "group": "room",
+      "src": "assets/room-voice/wash_return-ja-dea4009173289ce6.wav",
+      "seconds": 5.36,
+      "sha256": "63be9a89f45002844370f07c01d44a8f985ff7e7d9849cc978413561d1f1a42a"
+    },
+    {
+      "id": "tea_menu",
+      "language": "zh",
+      "text": "欢迎来到我们的小茶会！杯子也要认真选哦。",
+      "key": "欢迎来到我们的小茶会！杯子也要认真选哦。",
+      "group": "room",
+      "src": "assets/room-voice/tea_menu-zh-c32cbecde848e1f4.wav",
+      "seconds": 4,
+      "sha256": "69725853d03c661d7893b54f6b02dda7772cd964ea962d28c876edfb8402cffd"
+    },
+    {
+      "id": "tea_menu",
+      "language": "ja",
+      "text": "ふたりのお茶会へようこそ！カップも、じっくり選んでね。",
+      "key": "欢迎来到我们的小茶会！杯子也要认真选哦。",
+      "group": "room",
+      "src": "assets/room-voice/tea_menu-ja-5dfcd072f26af003.wav",
+      "seconds": 4.96,
+      "sha256": "79b79ad87697102489fac06c02ba527c8271b224d5647b14d533013c9862a20c"
+    },
+    {
+      "id": "tea_blue",
+      "language": "zh",
+      "text": "蓝色杯子给你！我选旁边这只。今天的小茶会，开场啦～",
+      "key": "蓝色杯子给你！我选旁边这只。今天的小茶会，开场啦～",
+      "group": "room",
+      "src": "assets/room-voice/tea_blue-zh-b61afea92e2509f4.wav",
+      "seconds": 6.24,
+      "sha256": "d320e49f1647ca821ed95dca0aa3202ea09b502b52acaed7bad1e953376692c1"
+    },
+    {
+      "id": "rest",
+      "language": "zh",
+      "text": "靠垫分你一半。我们先歇一小会儿吧。",
+      "key": "靠垫分你一半。我们先歇一小会儿吧。",
+      "group": "room",
+      "src": "assets/room-voice/rest-zh-d5ba3dd9ea9a2edf.wav",
+      "seconds": 4.16,
+      "sha256": "42e335ca1015d306b5360aeb1c894cd46ba3cee51905938a3738ffc031fdb9ac"
+    },
+    {
+      "id": "tea_pink",
+      "language": "zh",
+      "text": "粉色杯子，收到！嘿嘿，连杯子都像在说“欢迎回来”。",
+      "key": "粉色杯子，收到！嘿嘿，连杯子都像在说“欢迎回来”。",
+      "group": "room",
+      "src": "assets/room-voice/tea_pink-zh-eda969a02fd45925.wav",
+      "seconds": 5.84,
+      "sha256": "6882b3d9767d8eb8f222ee57d0f104d55656745472ee2c660eee7ff4279403ad"
+    },
+    {
+      "id": "tea_blue",
+      "language": "ja",
+      "text": "青いカップは君に！私は隣のこれにするね。今日のお茶会、はじまりだよ！",
+      "key": "蓝色杯子给你！我选旁边这只。今天的小茶会，开场啦～",
+      "group": "room",
+      "src": "assets/room-voice/tea_blue-ja-cdd16c48d3087558.wav",
+      "seconds": 9.04,
+      "sha256": "a9d6825d96c50de5af2fd017bd9818838c09c135ae2e5bc22d929de52b3b9730"
+    },
+    {
+      "id": "quiet",
+      "language": "zh",
+      "text": "不想说话也可以。我们就在这里坐一会儿。",
+      "key": "不想说话也可以。我们就在这里坐一会儿。",
+      "group": "room",
+      "src": "assets/room-voice/quiet-zh-df1156e129ebf908.wav",
+      "seconds": 3.76,
+      "sha256": "e5f123c1274aac577b85926a46c25ac315a6d2ae0eeb937bdc6cd95307f404dd"
+    },
+    {
+      "id": "quiet",
+      "language": "ja",
+      "text": "話したくないときは、話さなくてもいいよ。ここで一緒に、少し座っていよう。",
+      "key": "不想说话也可以。我们就在这里坐一会儿。",
+      "group": "room",
+      "src": "assets/room-voice/quiet-ja-0db9db747fb1661b.wav",
+      "seconds": 6.32,
+      "sha256": "4049ddb016c5f4510a9011a3dcec1b32aa4075c0bd8731ec0ec386be88385393"
+    },
+    {
+      "id": "listen",
+      "language": "zh",
+      "text": "想聊什么？我有认真听哦。",
+      "key": "想聊什么？我有认真听哦。",
+      "group": "room",
+      "src": "assets/room-voice/listen-zh-e12ceeb61db27ff8.wav",
+      "seconds": 2.56,
+      "sha256": "5c6abf535c3cfbe93d190f5984c6c620dc3861b7f5649bbf374f0c244ba52681"
+    },
+    {
+      "id": "listen",
+      "language": "ja",
+      "text": "何を話そうか？ちゃんと聞いてるよ。",
+      "key": "想聊什么？我有认真听哦。",
+      "group": "room",
+      "src": "assets/room-voice/listen-ja-6555980063402266.wav",
+      "seconds": 3.44,
+      "sha256": "60295caa341084e0570ff058d97728044e246a5405ffb9a116c68c669b28ef6b"
+    },
+    {
+      "id": "place_room",
+      "language": "zh",
+      "text": "回到宅邸啦～软软的靠垫已经给你留着啦！",
+      "key": "回到宅邸啦～软软的靠垫已经给你留着啦！",
+      "group": "room",
+      "src": "assets/room-voice/place_room-zh-46a1c2d579e46496.wav",
+      "seconds": 4.88,
+      "sha256": "43a29a7e0db9bd00413fb1b8633c29913233246837421fe42ad083bfe29704a8"
+    },
+    {
+      "id": "place_room",
+      "language": "ja",
+      "text": "お屋敷に帰ってきたね。やわらかいクッション、用意してあるよ。",
+      "key": "回到宅邸啦～软软的靠垫已经给你留着啦！",
+      "group": "room",
+      "src": "assets/room-voice/place_room-ja-f28f10c15610e22b.wav",
+      "seconds": 4.56,
+      "sha256": "70ee25bca8532b7701178d05054715334a549f60291c1584b24a6de25be95da8"
+    },
+    {
+      "id": "place_park",
+      "language": "zh",
+      "text": "这里是艾利欧尔森林。雪地有点滑，我们慢慢走吧。",
+      "key": "这里是艾利欧尔森林。雪地有点滑，我们慢慢走吧。",
+      "group": "room",
+      "src": "assets/room-voice/place_park-zh-38c19dc6e654b5ee.wav",
+      "seconds": 7.04,
+      "sha256": "f3a1b98501ac7fbc935b6fc9e45a868c16b9b35233e1135debb53113e5c7586a"
+    },
+    {
+      "id": "place_park",
+      "language": "ja",
+      "text": "ここはエリオール大森林。雪で滑りやすいから、ゆっくり歩こうね。",
+      "key": "这里是艾利欧尔森林。雪地有点滑，我们慢慢走吧。",
+      "group": "room",
+      "src": "assets/room-voice/place_park-ja-5ab73554bc9e9a6b.wav",
+      "seconds": 6.16,
+      "sha256": "fe3ef505bb03f222038eae144396bc768f1f98ee018a8b7b20b59686cde2ab46"
+    },
+    {
+      "id": "place_cafe",
+      "language": "zh",
+      "text": "到王都啦！走累了就在街边喝杯茶吧，点心分你一半。",
+      "key": "到王都啦！走累了就在街边喝杯茶吧，点心分你一半。",
+      "group": "room",
+      "src": "assets/room-voice/place_cafe-zh-1e68823434abfe0b.wav",
+      "seconds": 6,
+      "sha256": "55ecb9680c97f335db9a7baeb828a8e1a92883b841723f8a7dd52fd3116a997d"
+    },
+    {
+      "id": "place_cafe",
+      "language": "ja",
+      "text": "王都に着いたね。歩き疲れたら、お茶にしよう。お菓子も半分こしようね。",
+      "key": "到王都啦！走累了就在街边喝杯茶吧，点心分你一半。",
+      "group": "room",
+      "src": "assets/room-voice/place_cafe-ja-ff0c197600a83172.wav",
+      "seconds": 6.64,
+      "sha256": "609a05e56146631302bd8bba5bbd14e86d9f6fcc751523a02bba416678d825cf"
+    },
+    {
+      "id": "tea_pink",
+      "language": "ja",
+      "text": "ピンクのカップだね、了解！えへへ、カップまで「おかえり」って言ってるみたい。",
+      "key": "粉色杯子，收到！嘿嘿，连杯子都像在说“欢迎回来”。",
+      "group": "room",
+      "src": "assets/room-voice/tea_pink-ja-7e54d24acf5d971d.wav",
+      "seconds": 6.16,
+      "sha256": "e8176871e52b850a9f5cea78cfe0d0df40a3f0e0c53213b876054c3280b205bf"
+    },
+    {
+      "id": "place_beach",
+      "language": "ja",
+      "text": "水門都市に着いたよ。橋の下の水面、きれいだね。運河に沿って歩いてみようか。",
+      "key": "到水门都市啦！你看桥下的倒影，要一起沿着运河散步吗？",
+      "group": "room",
+      "src": "assets/room-voice/place_beach-ja-63d3a0bd8113af80.wav",
+      "seconds": 7.6,
+      "sha256": "618825bd883921489fcfde448e01dc26c0b735f6b9bed3acfc91cd527a86670b"
+    },
+    {
+      "id": "outfit-original",
+      "language": "zh",
+      "text": "还是这套衣服最自在呢。今天也一起慢慢过吧。",
+      "key": "还是这套衣服最自在呢。今天也一起慢慢过吧。",
+      "group": "outfit",
+      "src": "assets/room-voice/outfit-original-zh-701fbfc97ef46986.wav",
+      "seconds": 5.12,
+      "sha256": "c18bba22d50c7e438236fc3c5eec57489c84b81c7fc56a58655d9824098668c9"
+    },
+    {
+      "id": "outfit-original",
+      "language": "ja",
+      "text": "やっぱりこの服が、いちばん落ち着くね。今日も一緒に、ゆっくり過ごそう。",
+      "key": "还是这套衣服最自在呢。今天也一起慢慢过吧。",
+      "group": "outfit",
+      "src": "assets/room-voice/outfit-original-ja-22195fb2e4bfc83c.wav",
+      "seconds": 6.48,
+      "sha256": "9fef4825af5be20df7a73b016862aa8af1f1b53c501b7443b5a248ef5fe68c94"
+    },
+    {
+      "id": "outfit-jk",
+      "language": "zh",
+      "text": "换好啦。回去的路上，陪我走一会儿吧。",
+      "key": "换好啦。回去的路上，陪我走一会儿吧。",
+      "group": "outfit",
+      "src": "assets/room-voice/outfit-jk-zh-73cdcb57bb9f71c4.wav",
+      "seconds": 4.08,
+      "sha256": "e8d2a8af6cadd5773380eb20b09180a7bd1db239dd0110c7bf02288d5ed3e7ef"
+    },
+    {
+      "id": "outfit-jk",
+      "language": "ja",
+      "text": "着替えたよ。帰り道、少しだけ一緒に歩いてくれる？",
+      "key": "换好啦。回去的路上，陪我走一会儿吧。",
+      "group": "outfit",
+      "src": "assets/room-voice/outfit-jk-ja-ff5533008bc8ea8d.wav",
+      "seconds": 4.72,
+      "sha256": "fbb360f692c199b2d4e0ab43ba11c208133090d73ef65c0a41d40dc86eb16268"
+    },
+    {
+      "id": "outfit-lolita",
+      "language": "zh",
+      "text": "这条裙子像花瓣一样呢。茶已经泡好了，要一起尝尝吗？",
+      "key": "这条裙子像花瓣一样呢。茶已经泡好了，要一起尝尝吗？",
+      "group": "outfit",
+      "src": "assets/room-voice/outfit-lolita-zh-9b14667217fe39b9.wav",
+      "seconds": 6.32,
+      "sha256": "789836bac46d0d600b958e2bd37bb60e828da0655bc1732139f63dc6e52d3d23"
+    },
+    {
+      "id": "outfit-lolita",
+      "language": "ja",
+      "text": "花びらみたいなスカートだね。お茶が入ったよ。一緒に飲もう？",
+      "key": "这条裙子像花瓣一样呢。茶已经泡好了，要一起尝尝吗？",
+      "group": "outfit",
+      "src": "assets/room-voice/outfit-lolita-ja-99c8f0525e137031.wav",
+      "seconds": 5.28,
+      "sha256": "df265bdf93f802a81029e1438ec5aefe63591152d8477ad23ba51376dc8bf228"
+    },
+    {
+      "id": "outfit-sailor",
+      "language": "zh",
+      "text": "领结系好了。今天风很轻，适合一起散散步。",
+      "key": "领结系好了。今天风很轻，适合一起散散步。",
+      "group": "outfit",
+      "src": "assets/room-voice/outfit-sailor-zh-7c56081a3659451e.wav",
+      "seconds": 4.88,
+      "sha256": "655a4fcedd8e38877eca5fe2ea75e870e2a7a2d3400bf42649dbb95c572ee888"
+    },
+    {
+      "id": "place_beach",
+      "language": "zh",
+      "text": "到水门都市啦！你看桥下的倒影，要一起沿着运河散步吗？",
+      "key": "到水门都市啦！你看桥下的倒影，要一起沿着运河散步吗？",
+      "group": "room",
+      "src": "assets/room-voice/place_beach-zh-d71d644ef88310ce.wav",
+      "seconds": 5.92,
+      "sha256": "7236109986c17bb2e31622a76e8ff739532d396658cf9db4616b2b46ecc64bb0"
+    },
+    {
+      "id": "outfit-swim",
+      "language": "zh",
+      "text": "这样就准备好啦。记得带上毛巾，我们慢慢玩。",
+      "key": "这样就准备好啦。记得带上毛巾，我们慢慢玩。",
+      "group": "outfit",
+      "src": "assets/room-voice/outfit-swim-zh-8fb5b1dcf821975f.wav",
+      "seconds": 4.56,
+      "sha256": "62e8a6d51040bca4448790680726a2b2b319039adb1fb8e217a3b574b42d0a5c"
+    },
+    {
+      "id": "outfit-swim",
+      "language": "ja",
+      "text": "これで準備できたね。タオルも忘れずに。のんびり楽しもう。",
+      "key": "这样就准备好啦。记得带上毛巾，我们慢慢玩。",
+      "group": "outfit",
+      "src": "assets/room-voice/outfit-swim-ja-bf3ebc256770fb0f.wav",
+      "seconds": 4.88,
+      "sha256": "ddad231b09c015ae5845e8e95f80d8da5fb1ed64dc3234c1df2dc411caa3b1fd"
+    },
+    {
+      "id": "outfit-sport",
+      "language": "zh",
+      "text": "准备好了。先轻轻伸展一下，不用勉强自己哦。",
+      "key": "准备好了。先轻轻伸展一下，不用勉强自己哦。",
+      "group": "outfit",
+      "src": "assets/room-voice/outfit-sport-zh-ee9443a040effd67.wav",
+      "seconds": 5.52,
+      "sha256": "78fefdf9d1f499e231c8e11877f1e265d68889d0e0fb1e135e1e59f00101462d"
+    },
+    {
+      "id": "outfit-sailor",
+      "language": "ja",
+      "text": "リボン、結べたよ。今日は風がやさしいね。一緒に、少しお散歩しよう。",
+      "key": "领结系好了。今天风很轻，适合一起散散步。",
+      "group": "outfit",
+      "src": "assets/room-voice/outfit-sailor-ja-d84f40c35c2ab9a6.wav",
+      "seconds": 6.8,
+      "sha256": "3249a76b2380c63ad86a2e73c6908c147c1322ba2f160f5fa22a27b5822b9a15"
+    },
+    {
+      "id": "outfit-wedding",
+      "language": "zh",
+      "text": "裙摆好轻呀。有一点不好意思呢……谢谢你陪我试这套。",
+      "key": "裙摆好轻呀。有一点不好意思呢……谢谢你陪我试这套。",
+      "group": "outfit",
+      "src": "assets/room-voice/outfit-wedding-zh-83710886d0d64b6e.wav",
+      "seconds": 7.52,
+      "sha256": "ebeeb61e616a03f5e152497b2efd676887b328cb5cf8a6ecc1db39ae79d56127"
+    },
+    {
+      "id": "outfit-wedding",
+      "language": "ja",
+      "text": "裾がふわふわだね。少し、照れちゃうな。着替えに付き合ってくれて、ありがとう。",
+      "key": "裙摆好轻呀。有一点不好意思呢……谢谢你陪我试这套。",
+      "group": "outfit",
+      "src": "assets/room-voice/outfit-wedding-ja-aabf96571851b8ac.wav",
+      "seconds": 6.32,
+      "sha256": "b758c489bfc84f26190afdab77fbaf14adaddaeef17d05e29468f71622ee12fb"
+    },
+    {
+      "id": "idle-soft",
+      "language": "ja",
+      "text": "ふん、ふふーん。ふん、ふーん。",
+      "key": "soft",
+      "group": "idle",
+      "src": "assets/room-voice/idle-soft-ja-3f9907a5621ee02b.wav",
+      "seconds": 2.48,
+      "sha256": "3b0bf17cc394a9c679998d276f27150b075f165d8cd5d92e65b3cd7dee74df36"
+    },
+    {
+      "id": "idle-bright",
+      "language": "ja",
+      "text": "らら、らーら。ふふん、ららら。",
+      "key": "bright",
+      "group": "idle",
+      "src": "assets/room-voice/idle-bright-ja-f104a6ac0e275bf4.wav",
+      "seconds": 4.08,
+      "sha256": "ae66e0971f01691ad3c3ec92c71b283e007b5014623ca382661d0e8953a1ffc3"
+    },
+    {
+      "id": "idle-sleepy",
+      "language": "ja",
+      "text": "んー、ふーん。んん、ふーん。",
+      "key": "sleepy",
+      "group": "idle",
+      "src": "assets/room-voice/idle-sleepy-ja-26030e888f7c71a8.wav",
+      "seconds": 4,
+      "sha256": "0e4bcd945a3fedef68ed1a020afa9c52c902d93a38e2192edcf400942d00aede"
+    },
+    {
+      "id": "outfit-sport",
+      "language": "ja",
+      "text": "準備できたよ。まずは軽くストレッチしよう。無理しなくていいからね。",
+      "key": "准备好了。先轻轻伸展一下，不用勉强自己哦。",
+      "group": "outfit",
+      "src": "assets/room-voice/outfit-sport-ja-8be1118df8c93d2c.wav",
+      "seconds": 6.16,
+      "sha256": "7f29cd8deadc362f19fd9b2933985805f863155ea769d19d1a468f9438b9c63f"
+    }
+  ]
+}

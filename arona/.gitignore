@@ -1,0 +1,25 @@
+.env
+.env.*
+!.env.example
+*.log
+node_modules/
+data/
+.arona-research/
+verification/
+qwen-chat-preview.jpg
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+
+# Private runtime / deployment settings and release exports
+runtime.env
+deploy.env
+*.local.md
+*.pem
+*.key
+*.p12
+*.pfx
+*.tar
+*.tar.gz
+*.zip

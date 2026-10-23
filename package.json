@@ -1,0 +1,15 @@
+{
+  "name": "tomorrow137-companion",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start:arona": "npm --prefix arona start",
+    "start:emilia": "npm --prefix emilia start",
+    "test:arona": "npm --prefix arona test",
+    "test:emilia": "npm --prefix emilia test"
+  }
+}

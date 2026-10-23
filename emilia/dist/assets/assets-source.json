@@ -1,0 +1,42 @@
+{
+  "checked_on": "2026-10-16",
+  "assets": [
+    {
+      "file": "sora-official.png",
+      "character": "春日野穹",
+      "source_page": "https://king-cr.jp/special/yosuganosora/character/",
+      "source_image": "https://king-cr.jp/special/yosuganosora/images/chara/i_sora.png",
+      "source_type": "Official Yosuga no Sora anime character page on KING RECORDS",
+      "width": 600,
+      "height": 600,
+      "bytes": 307056,
+      "sha256": "e57d7f4b4eb93ce151a095bd0a7a125c6e4b87bbceb41f446a851e45be704f6d",
+      "modified": false,
+      "visual_check": "Ordinary white dress; full-body standing character at left and two head portraits at right; no sexualized content.",
+      "background": "Pale blue illustrated background. PNG has transparent outer rounded corners only; this is not a transparent character cutout.",
+      "layout_hint": "The full-body standing character occupies approximately x=35..295, y=35..570 in the original 600x600 image. A CSS overflow crop of the left half can present the full-body pose without altering the file.",
+      "license_status": "No explicit permission for reuse in an application was found on the source page. Public availability does not establish reuse rights.",
+      "intended_use": "Temporary local prototype visual; replace or obtain suitable authorization before public distribution."
+    },
+    {
+      "file": "sora-room-sprite-v1.png",
+      "character": "春日野穹",
+      "source_type": "AI-assisted extraction and redraw from sora-official.png using built-in imagegen",
+      "modified": true,
+      "background": "Alpha-transparent full-body sprite",
+      "license_status": "Derivative character artwork; original character rights remain. No new license inferred from AI processing.",
+      "intended_use": "Local room prototype",
+      "generated_on": "2026-10-16"
+    },
+    {
+      "file": "room-background-v1.png",
+      "source_type": "AI-generated quiet reading room using built-in imagegen",
+      "modified": false,
+      "intended_use": "Room webpage background",
+      "generated_on": "2026-10-16"
+    }
+  ],
+  "active_character": "Arona",
+  "active_character_manifest": "arona/sources.json",
+  "previous_character_assets_retained": true
+}

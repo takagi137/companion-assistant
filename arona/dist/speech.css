@@ -1,0 +1,25 @@
+.voice-controls {display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:9px 0 7px}
+.mic-button {display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:8px 14px;border:1px solid #c5bcd9;border-radius:14px;background:#f3effb;color:#66547f;font:inherit;font-size:13px;cursor:pointer}
+.mic-button svg {width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.7}
+.mic-button:disabled {opacity:.6;cursor:wait}
+.is-recording .mic-button {background:#fff0f4;border-color:#db8fa7;color:#ad4266}
+.voice-status {margin:0 0 7px;color:#81758f;font-size:11px;line-height:1.6;min-height:18px}
+.auto-speak {margin-left:auto;display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#796889;cursor:pointer}
+.auto-speak input {accent-color:#9480b4;width:16px;height:16px}
+.speech-language {display:inline-flex;align-items:center;gap:4px;color:#7195ac;font-size:11px;white-space:nowrap}
+.speech-language select {max-width:75px;min-height:32px;padding:3px 4px;border:1px solid #cde2ef;border-radius:8px;background:#f4faff;color:#527d96;font:inherit}
+.speech-language select:focus-visible {outline:2px solid #74a9c8;outline-offset:2px}
+.room-shell .composer-toolbar {flex-wrap:wrap;column-gap:8px}
+.speech-player {display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:8px 12px;margin:0 18px 5px;border:1px solid #e3daef;border-radius:12px;background:#f7f3fc;font-size:12px;color:#796889}
+.speech-player [role=status] {flex:1;min-width:100px}
+.speech-button {margin-top:6px;font-size:11px}
+.speech-button[aria-pressed=true] {color:#ad4266}
+.voice-controls .copy-button,.speech-player .copy-button,.voice-result-box .copy-button,.speech-button {display:inline-flex;width:auto;margin-top:0;padding:7px 10px;min-height:36px}
+.speech-button {margin-top:6px}
+.chat-header,.composer-area,.chat-demo-note,.speech-player {flex-shrink:0}
+.voice-result-box {padding:8px;background:#faf7fd;border:1px solid #e3daef;border-radius:12px;margin-bottom:8px;font-size:12px;color:#796889}
+.voice-result-box textarea {display:block;width:100%;min-height:65px;margin:6px 0;border:1px solid #e3daef;border-radius:8px;padding:8px;font:inherit;resize:vertical}
+.voice-privacy {font-size:10px;color:#948b9e;margin:5px 0 0;line-height:1.5}
+.voice-controls button:focus-visible,.speech-player button:focus-visible {outline:2px solid #aa91c7;outline-offset:3px}
+@media(max-width:600px){.voice-controls{margin:6px 0 4px;gap:6px}.mic-button{min-height:40px}.voice-status{font-size:10px;margin-bottom:3px}.speech-player{margin-inline:10px}.voice-privacy{font-size:9px}.auto-speak{font-size:11px}}
+@media(max-width:620px) and (max-height:700px){.chat-view .quick-prompts,.chat-view .energy-row{display:none}.chat-header{padding:9px 12px}.chat-demo-note{padding-block:5px}.voice-privacy{margin-top:3px}}
