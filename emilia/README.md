@@ -1,48 +1,69 @@
-# 爱蜜莉雅的小窝
+# 爱蜜莉雅的小窝 · 陪伴助理
 
-## 快速开始与私有配置
+从宅邸的午后，到雪林里的散步。一个温柔的小伙伴，也帮你记住“东西放在哪里了”。
 
-需要 Node.js 24+，没有第三方运行依赖。在项目目录复制 `.env.example` 为 `.env`，填写自己的配置后运行 `npm start`（或 `node --env-file-if-exists=.env server.mjs`）。Key、登录口令和域名都放在 `.env`；服务器地址等放在可选的 `deploy.env`，模板见 `deploy.env.example`。两个真实文件都不提交。无 Key 也可体验预设互动，联网模型功能需要 Key。
+[返回项目首页](../README.md) · [看看阿罗娜版](../arona/README.md) · [部署说明](DEPLOYMENT.md)
 
-部署步骤见 [DEPLOYMENT.md](DEPLOYMENT.md)，发布边界与素材说明见 [PUBLICATION.md](PUBLICATION.md)。下面的开发记录为历史状态，不代表读者的运行环境已完成部署。
+![爱蜜莉雅宅邸小窝首页](../docs/images/emilia-room.jpg)
 
+## 银发精灵的衣柜
 
-独立于阿罗娜版，基于 sora-companion 的 6c74dd9 创建。保留 Node 24、SQLite、原生前端、聊天/小本本/配音/动作与场景音乐实现。
+白紫日常服、JK、洛丽塔、水手服、清凉泳装、运动服、婚纱共七套 Q 版换装；每套都有眨眼、招手、吃点心、猜拳和休息动作。
+
+![爱蜜莉雅的七套换装](../docs/images/emilia-wardrobe.jpg)
+
+<table>
+<tr><th>日常 · 银发精灵</th><th>洛丽塔 · 紫罗兰茶会</th><th>水手服 · 晴空来信</th></tr>
+<tr>
+<td align="center"><img src="dist/assets/emilia-preview/original-v1.svg" width="220" alt="日常 Q 版立绘"></td>
+<td align="center"><img src="dist/assets/emilia-preview/lolita-v1.svg" width="220" alt="洛丽塔 Q 版立绘"></td>
+<td align="center"><img src="dist/assets/emilia-preview/sailor-v1.svg" width="220" alt="水手服 Q 版立绘"></td>
+</tr>
+</table>
+
+## 去熟悉的异世界走走
+
+宅邸小窝、艾利欧尔森林、王都街道和水门都市，搭配不同的纯音乐。服装会随出游保留，回来之后还能听雨、看星空。
+
+![爱蜜莉雅穿着洛丽塔来到艾利欧尔森林](../docs/images/emilia-forest.jpg)
+
+场景是参考《Re:从零开始的异世界生活》的 AI 同人演绎，不是官方截图或精确复刻。BGM 采用有来源与署名的纯音乐，详见 `dist/assets/scene-bgm/licensed/sources.json`。
+
+## “钥匙放哪了？”
+
+先告诉她：“钥匙放在玄关第二个抽屉。”以后问“钥匙在哪”，会回答最后记录的位置和时间。
+
+![查询钥匙最后记录的位置](../docs/images/emilia-find-item.jpg)
+
+点击回执可以查看位置历史。下次挪了地方，再告诉她新位置；小本本也支持手动记录、别名搜索与备注。
+
+![物品位置历史](../docs/images/emilia-item-history.jpg)
+
+以上截图均为临时演示记录。明确的常用记录、查询句式无需模型 Key；其他表达可用手动表单或接入模型后处理。这里只报告用户记录，不追踪现实位置，也不主动发定时通知。
+
+## 温柔的声音与日常互动
+
+摸头、点心、猜拳、换装与切景有预设配音；待机约 25–35 秒后随机播放轻哼。当前预设使用阿里云 Nini（邻家妹妹）合成，并非原作声优的声音。
+
+中文聊天可以搭配日语朗读，静态互动音频可重复播放。自由聊天、语音识别和新台词的实时合成需要用户自行配置阿里云百炼。
 
 ## 本地运行
 
-在本目录执行 `npm start`，打开 http://127.0.0.1:4174/#room 。默认只监听本机。
+需要 Node.js 24+，无第三方运行依赖。在仓库根目录执行：
 
-- 独立数据库：`data/emilia.sqlite`。
-- 独立 Cookie：`emilia_session`；外观、语音缓存和浏览器偏好使用 emilia 命名空间。
-- 未复制原版 `.env`、数据库、聊天记录或凭据。原阿罗娜项目和网址保持不变。
-- 环境变量兼容原实现，见 `.env.example`。请为本实例单独配置，尤其不要把 `SORA_DATABASE_PATH` 指向原版数据库。
-- 未配置模型 Key 时，预设互动、物品位置记录与查找、小本本、已有配音和音乐可用。自由聊天、语音识别、翻译和新增台词的实时配音需要配置 `DASHSCOPE_API_KEY`。
+```sh
+npm run start:emilia
+```
 
-## 本次主题内容
+打开 http://127.0.0.1:4174/#room 。也可进入 `emilia/` 后执行 `node --env-file-if-exists=.env server.mjs`。
 
-七套 Q 版换装：白紫日常服、JK、洛丽塔、水手服、清凉泳装、运动服、婚纱。每套均有眨眼、招手、吃布丁、猜拳、休息动作，继续沿用原有 SVG 图集播放方式。
+复制 `.env.example` 为 `.env` 后按需填 Key、口令和模型配置。无 Key 可先体验预设互动、衣柜、已有音频、小本本以及常用物品记录和查询。
 
-四个场景：宅邸小窝、艾利欧尔森林、王都街道、水门都市。保留内部场景 ID 与 BGM 逻辑，场景切换文案同步更新。
+本版默认数据库为 `data/emilia.sqlite`，与阿罗娜版分别保存 Cookie、配置和数据。不要把 `SORA_DATABASE_PATH` 指向另一版本的数据库；真实配置与聊天记录不提交。公开部署见 [DEPLOYMENT.md](DEPLOYMENT.md)。
 
-素材是参考《Re:从零开始的异世界生活》的 AI 同人演绎，并非官方截图或精确场景复刻。来源和生成提示记录在 `ASSET-SOURCES.json`。衣柜与静态形象用 SVG viewBox 展示原 PNG 的单帧，没有重新绘制图片。
+## 开发与素材
 
-配音使用阿里云 `qwen3-tts-flash` 的 Nini（邻家妹妹），支持日语，属于现成软糯女声，并非高桥李依的声线。已重新生成 107 段预设音频：90 段中日双语互动/场景台词、14 段换装台词、3 段不同的待机轻哼。来源、文本和校验值见 `dist/assets/room-voice/emilia-sources.json`；生成入口为 `build-emilia-audio.mjs`。中文回复与日语表达也改为自然、耐心、温柔的风格。
-
-场景音乐采用 Kevin MacLeod 的六首 CC BY 4.0 纯音乐：宅邸 Reawakening、雨天 Meditation Impromptu 01、夜晚 Meditation Impromptu 02、雪林 Enchanted Journey、王都 Morning、水都 Canon in D for Two Harps。来源及授权见 `dist/assets/scene-bgm/licensed/sources.json`；页面保留署名。歌曲面板改为《Re:Zero》的 Stay Alive 和 Wishing 试听入口。
-
-## 物品在哪
-
-在聊天中说“钥匙放在玄关第二个抽屉”即可记录，之后问“钥匙在哪”会返回最后一次记录的位置和时间。再次记录新位置会保留旧位置；小本本的“物品在哪”支持手动编辑、别名搜索、备注及位置历史。
-
-明确的常用记录/查询句式不依赖模型 Key。疑问、推测、计划或引用示例不会被这些规则自动当成事实保存；其他说法可使用手动表单，或配置模型后使用工具调用。系统只报告用户记录，不追踪现实位置，不提供定时通知。并发更新检测版本冲突，请求重试不会重复写入。
-
-## 验证与交付状态
-
-2026-10-22：集中回归 107 项通过；之后针对记录语句保护补充定向验证。真实浏览器已验收物品聊天记录、更新、查询、别名、历史及日语预设音频播放；390×844 手机视口的记事本无横向溢出，测试数据仅存在临时内存数据库。此前已验收衣柜、换装后场景切换和衣服保持。无模型 Key，因此未做自由聊天、语音识别和实时配音验收；浏览器手机视口不等于实体 iPhone 验收。
-
-2026-10-23 收尾：新增语句保护的 3 项物品位置测试通过，六首新音乐的 4 项场景音乐定向测试通过。真实浏览器确认宅邸、雪林、水都切换使用不同新 MP3，音频解码正常且播放进度推进。
-
-测试入口见 package.json 的 test 脚本。环境没有 npm 时，可直接用 Node 执行其中列出的 `node --test ...` 命令。
-
-生产部署使用独立域名、容器、数据卷和 runtime.env，操作说明见 `DEPLOYMENT.md`。不要覆盖阿罗娜容器、数据卷或配置；本地数据不会自动上传。
+- 测试：仓库根目录运行 `npm run test:emilia`。
+- [素材来源清单](ASSET-SOURCES.json) · [发布说明](PUBLICATION.md)。
+- [历史实现与验证记录](DEVELOPMENT-HISTORY.md)：保留历史证据，浏览器截图不等于实体手机验收。
+- 原创代码使用 MIT；角色、音乐和其他素材按各自来源与授权处理。本项目为爱好者作品，与原作官方无关联。

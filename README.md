@@ -1,50 +1,96 @@
-# takagi137-companion · 角色生活小窝
+# 陪伴助理 · Companion Assistant
 
-阿罗娜与爱蜜莉雅两个主题的个人生活助手：聊天、换装、角色互动、场景音乐，以及帮你记住日常小事的小本本。
+一个可以聊天、换装、听音乐，也能帮你记住日常小事的角色生活助理。
 
-两个版本放在同一个仓库，保留各自的界面、配音、配置与数据库。采用 Node.js 24+、内置 SQLite 和原生前端，无第三方运行依赖。
+**摸摸头，换身衣服，出去逛逛。回来之后，重要的小事交给小本本。**
 
-## 选择一个小窝
+[阿罗娜的小窝](arona/README.md) · [爱蜜莉雅的小窝](emilia/README.md) · [快速开始](#快速开始) · [素材说明](#许可证与素材)
 
-| 版本 | 目录 | 默认本地网址 | 特点 |
-| --- | --- | --- | --- |
-| 阿罗娜 | [arona](arona) | http://127.0.0.1:4173/#room | 蓝白色小窝、换装动作、日常互动、记事与待办 |
-| 爱蜜莉雅 | [emilia](emilia) | http://127.0.0.1:4174/#room | Re:Zero 风格场景、温柔配音、物品位置记录与历史查找 |
+## 先看看小窝
+
+| 阿罗娜 · 蓝白色的日常 | 爱蜜莉雅 · 银发精灵的宅邸 |
+| :---: | :---: |
+| [![阿罗娜首页：角色、对白和互动入口](docs/images/arona-room.jpg)](arona/README.md) | [![爱蜜莉雅首页：宅邸背景与角色互动](docs/images/emilia-room.jpg)](emilia/README.md) |
+| 聊天、摸头、点心、猜拳、记事与待办 | 温柔配音、主题场景、记事和物品位置查找 |
+
+图片可点开查看对应版本的完整介绍。以下界面来自公开源码的实际本地运行，笔记、钥匙位置等内容均为临时演示数据。
+
+## 今天想穿哪一套？
+
+两套小窝都有独立衣柜。换好衣服之后，眨眼、招手、吃点心、猜拳等动作仍然可以继续；不同服装还有各自的预设配音。
+
+| 阿罗娜的衣柜 | 爱蜜莉雅的衣柜 |
+| :---: | :---: |
+| ![阿罗娜衣柜：日常、JK、洛丽塔等服装](docs/images/arona-wardrobe.jpg) | ![爱蜜莉雅衣柜：白紫配色的七套服装](docs/images/emilia-wardrobe.jpg) |
+
+<details>
+<summary>展开看看角色立绘</summary>
+
+<table>
+<tr><th>阿罗娜 · JK</th><th>阿罗娜 · 洛丽塔</th><th>爱蜜莉雅 · 日常</th><th>爱蜜莉雅 · 洛丽塔</th></tr>
+<tr>
+<td align="center"><img src="arona/dist/assets/wardrobe/jk-v1.png" width="180" alt="阿罗娜 JK 立绘"></td>
+<td align="center"><img src="arona/dist/assets/wardrobe/lolita-v1.png" width="180" alt="阿罗娜洛丽塔立绘"></td>
+<td align="center"><img src="emilia/dist/assets/emilia-preview/original-v1.svg" width="180" alt="爱蜜莉雅日常 Q 版立绘"></td>
+<td align="center"><img src="emilia/dist/assets/emilia-preview/lolita-v1.svg" width="180" alt="爱蜜莉雅洛丽塔 Q 版立绘"></td>
+</tr>
+</table>
+
+</details>
+
+## 换个地方，待一会儿
+
+| 一起去甜品店 | 在艾利欧尔森林散步 |
+| :---: | :---: |
+| ![阿罗娜换上洛丽塔来到甜品店](docs/images/arona-cafe.jpg) | ![爱蜜莉雅穿着洛丽塔来到雪林](docs/images/emilia-forest.jpg) |
+
+场景会切换背景与对应 BGM，也可以回房间看雨、看星空。待机约 25–35 秒后会随机轻哼；浏览器可能需要先点击一次页面才能播放声音。
+
+## 陪伴，也帮你记住一点东西
+
+- **随口聊聊**：文字聊天、麦克风输入、回复朗读；普通回复以简短自然为主。
+- **互动一下**：摸头、点心、猜拳、拆纸条和好感内容解锁。
+- **写进小本本**：记事、待办、修改记录、查旧聊天。
+- **东西放哪了**：爱蜜莉雅版支持“钥匙放在玄关第二个抽屉”→“钥匙在哪”，并能查看位置历史。
+
+![爱蜜莉雅根据刚才保存的记录回答钥匙的位置](docs/images/emilia-find-item.jpg)
+
+这里只报告用户记录过的内容，不追踪现实位置，也不提供关闭网页后的推送或定时通知。未支持的功能会明确提示，不假装执行成功。
 
 ## 快速开始
 
-安装 Node.js 24 或更新版本。进入要运行的目录，把 `.env.example` 复制为 `.env`，按需填写阿里云百炼配置，然后运行：
+需要 **Node.js 24+**。使用原生前端、Node 内置 SQLite，没有第三方运行依赖，不需要 `npm install`。
 
 ```sh
-# 在仓库根目录启动阿罗娜
+git clone https://github.com/takagi137/companion-assistant.git
+cd companion-assistant
+
+# 选择一个版本启动
 npm run start:arona
-# 或在另一个终端启动爱蜜莉雅
+# 或在另一个终端运行
 npm run start:emilia
 ```
 
-不需要 `npm install`。也可进入 `arona/` 或 `emilia/`，执行 `node --env-file-if-exists=.env server.mjs`。未配置 Key 时可体验预设互动、记事及已有音频；自由聊天、语音识别与实时配音需要自己的阿里云 Key 和可用模型额度。
+| 版本 | 本地地址 | 详细介绍 |
+| --- | --- | --- |
+| 阿罗娜 | http://127.0.0.1:4173/#room | [arona/README.md](arona/README.md) |
+| 爱蜜莉雅 | http://127.0.0.1:4174/#room | [emilia/README.md](emilia/README.md) |
 
-`.env` 保存 Key、口令、模型、端口和网站域名。`deploy.env` 保存可选的服务器地址和部署目录，模板为 `deploy.env.example`。两种真实配置均不提交；不要在前端文件中填写凭据。两个小窝请使用各自的配置和数据库。
+**先不配 Key 也能玩**：预设互动、换装、场景音乐、小本本和已有音频可以直接体验；爱蜜莉雅的常用物品记录与查询句式也可直接使用。
 
-## 主要功能
+自由聊天、语音识别和新台词的实时配音需要自己的阿里云百炼 Key 与可用模型额度。将对应目录的 `.env.example` 复制为 `.env` 后填写；两个小窝各自保留配置与数据库。
 
-- 聊天与语音输入，中文/日语朗读和预设互动配音。
-- 角色换装、眨眼与互动动作，场景切换和背景音乐。
-- 待机随机轻哼，间隔约 25–35 秒；浏览器可能需要先点击页面才能播放音频。
-- 小本本：记事、待办、查旧聊天。爱蜜莉雅版还可记录“钥匙在玄关抽屉”，再询问“钥匙在哪”，查看最新位置及历史。
-- 只记录用户提供的信息，不提供关闭网页后的推送或定时通知。未实现的功能会明确提示，不假装执行成功。
+## 配置、部署与开发
 
-## 部署与测试
+- `.env`：模型、Key、口令、端口与网站域名；不要把凭据填到前端。
+- `deploy.env`：可选的服务器地址和部署目录，参考 `deploy.env.example`。
+- 实际配置、聊天记录与数据库不提交 Git。公开部署需要 HTTPS、独立口令和持久化数据卷。
+- [阿罗娜部署](arona/DEPLOYMENT.md) · [爱蜜莉雅部署](emilia/DEPLOYMENT.md)
+- 测试：`npm run test:arona` / `npm run test:emilia`。
+- 历史实现与验证记录：[阿罗娜](arona/DEVELOPMENT-HISTORY.md) / [爱蜜莉雅](emilia/DEVELOPMENT-HISTORY.md)。
 
-分别参考 [阿罗娜部署说明](arona/DEPLOYMENT.md) 与 [爱蜜莉雅部署说明](emilia/DEPLOYMENT.md)。每个目录均有独立 Dockerfile，构建上下文使用对应子目录。对外部署需要 HTTPS、独立口令和持久化数据卷；配置与聊天记录不能放进公开静态目录。
+## 许可证与素材
 
-```sh
-npm run test:arona
-npm run test:emilia
-```
+原创代码采用 [MIT](LICENSE)，作者署名 takagi137。角色及第三方素材权利不因代码开源转移；本项目为爱好者作品，与原作官方无关联。
 
-## 许可证与素材来源
-
-原创源码采用 [MIT](LICENSE) 许可证，署名 takagi137。角色及其他第三方权利不因代码许可证转移。项目包含自行制作/生成的图片和配音，以及在来源清单中标注的原作参考素材和授权音乐；媒体按各自来源说明处理，不统一声明为 MIT。
-
-保留各 `dist/assets/**/sources.json` 和 [爱蜜莉雅素材清单](emilia/ASSET-SOURCES.json) 的来源、作者与许可说明。CC BY 音乐须保留作者及许可证链接。本项目为爱好者作品，与原作官方无关联。
+图片、配音和音乐按各自来源说明使用；保留各 `dist/assets/**/sources.json`、[爱蜜莉雅素材清单](emilia/ASSET-SOURCES.json) 中的来源、作者与许可信息，CC BY 音乐须保留署名。场景和换装包含 AI 同人演绎，不是官方游戏内容。

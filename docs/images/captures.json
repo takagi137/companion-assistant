@@ -1,0 +1,17 @@
+{
+  "captured": "2026-10-26",
+  "source": "Public source at 7f7ab4f, unchanged application code",
+  "method": "Browser screenshots of local Node preview, isolated in-memory databases, no model key",
+  "privacy": "All notes and item locations are fictional demo content; no production data or credentials used",
+  "files": [
+    "arona-cafe.jpg",
+    "arona-notebook.jpg",
+    "arona-room.jpg",
+    "arona-wardrobe.jpg",
+    "emilia-find-item.jpg",
+    "emilia-forest.jpg",
+    "emilia-item-history.jpg",
+    "emilia-room.jpg",
+    "emilia-wardrobe.jpg"
+  ]
+}
